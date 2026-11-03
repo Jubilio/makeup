@@ -91,3 +91,13 @@ npm run dev                           # http://localhost:3000
 npm run preview                       # testa como no Cloudflare
 npm run db:migrate                    # aplica novas migrações na base de dados real
 ```
+
+## Dados de entrega e resposta
+
+Em `.env.production` há três campos que aparecem no site. Enquanto estiverem vazios, o site mostra um texto genérico.
+
+- `NEXT_PUBLIC_STORE_CITY`: cidade (ex.: `Maputo`). Entra no título da página inicial.
+- `NEXT_PUBLIC_DELIVERY_INFO`: frase de entrega mostrada no produto e no carrinho (ex.: `Maputo e Matola: 150 MT, normalmente em 1 a 2 dias. Também pode levantar no Museu.`).
+- `NEXT_PUBLIC_REPLY_TIME`: tempo típico de resposta (ex.: `1 hora`).
+
+O aviso "Poucas unidades" aparece sozinho quando o estoque real está entre 1 e o valor de "Avisar quando tiver".

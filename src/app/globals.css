@@ -157,6 +157,14 @@ input, select, textarea {
 .total { font-size: 1.15rem; margin: 0; }
 .how ol { padding-left: 20px; }
 
+/* Confiança e decisão */
+.trust { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.92rem; color: var(--ok); }
+.delivery { margin: 0; font-size: 0.9rem; color: var(--muted); max-width: 380px; }
+.per-unit { margin: -10px 0 14px; color: var(--muted); font-size: 0.95rem; }
+.btn.ask { margin-top: 12px; max-width: 380px; text-align: center; border-color: var(--wa); color: var(--text); }
+.notice.low { color: #b26a00; }
+.step { margin: 4px 0 0; font-weight: 600; }
+
 /* Administração */
 .login { max-width: 360px; margin: 48px auto; }
 .notice.err { color: #c0392b; }

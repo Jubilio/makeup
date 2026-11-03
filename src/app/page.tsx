@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { categories, categorySlug, products } from "@/lib/catalog";
 import { ProductCard } from "@/components/ProductCard";
+import { TrustStrip } from "@/components/TrustStrip";
+import { STORE_CITY } from "@/lib/store";
 
 const FEATURED = [
   "signature-range-perfume-50ml",
@@ -18,14 +20,14 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <h1>Perfumes e cuidados INUKA, entregues a si.</h1>
+        <h1>{STORE_CITY ? `Perfumes INUKA originais, com entrega em ${STORE_CITY}.` : "Perfumes INUKA originais, entregues a si."}</h1>
         <p>
-          Escolha os seus produtos, junte ao carrinho e envie o pedido pelo WhatsApp. Confirmamos
-          disponibilidade e entrega consigo.
+          Escolha no catálogo, envie o pedido pelo WhatsApp e só paga depois de confirmarmos o seu pedido.
         </p>
         <Link href="/produtos" className="btn primary">
-          Ver catálogo
+          Ver perfumes e cuidados
         </Link>
+        <TrustStrip />
       </section>
 
       <section>
@@ -54,7 +56,7 @@ export default function Home() {
         <ol>
           <li>Escolha o produto e a fragrância, cor ou tom.</li>
           <li>Abra o carrinho e preencha o seu nome e onde quer receber.</li>
-          <li>Carregue em “Enviar pedido por WhatsApp”. Respondemos a confirmar.</li>
+          <li>Carregue em “Enviar pedido por WhatsApp”. Respondemos a confirmar e só depois combinamos o pagamento.</li>
         </ol>
       </section>
     </>

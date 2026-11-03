@@ -66,3 +66,9 @@ export function categorySlug(c: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-");
 }
+
+/** Para kits como "5x10ml": número de frascos no kit (ou null se não for um kit). */
+export function packCount(p: Product): number | null {
+  const m = /^(\d+)\s*x/i.exec(p.size);
+  return m && Number(m[1]) > 1 ? Number(m[1]) : null;
+}
