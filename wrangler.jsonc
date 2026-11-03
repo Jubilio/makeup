@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aneka-shop",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "aneka-shop",
+      // Base de dados D1 "aneka-shop" criada na conta Cloudflare
+      "database_id": "0bc1e59e-7a81-4151-b2c8-fb0767d17a83",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "NEXT_PUBLIC_WHATSAPP_NUMBER": "258848412271",
+    "NEXT_PUBLIC_STORE_NAME": "Aneka Shop"
+  }
+}
