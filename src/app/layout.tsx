@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CartProvider } from "@/lib/cart";
-import { Header, STORE_NAME } from "@/components/Header";
+import { Header } from "@/components/Header";
+import { STORE_NAME } from "@/lib/store";
 import "./globals.css";
 
 export const metadata: Metadata = {
