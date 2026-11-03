@@ -156,3 +156,36 @@ input, select, textarea {
 }
 .total { font-size: 1.15rem; margin: 0; }
 .how ol { padding-left: 20px; }
+
+/* Administração */
+.login { max-width: 360px; margin: 48px auto; }
+.notice.err { color: #c0392b; }
+.admin-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 16px 0 20px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; display: flex; flex-direction: column; }
+.stat span { color: var(--muted); font-size: 0.85rem; }
+.stat strong { font-size: 1.3rem; }
+.stat.warn { border-color: #d68a1f; }
+.stock-list { list-style: none; padding: 0; margin: 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.stock-row + .stock-row { border-top: 1px solid var(--line); }
+.stock-summary { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 14px; background: none; border: 0; font: inherit; color: var(--text); text-align: left; cursor: pointer; }
+.stock-name { display: flex; flex-direction: column; min-width: 0; }
+.stock-name span { color: var(--muted); font-size: 0.88rem; }
+.stock-qty { display: flex; flex-direction: column; align-items: flex-end; }
+.stock-qty strong { font-size: 1.2rem; }
+.stock-qty small { color: var(--muted); }
+.stock-row.low .stock-qty strong, .stock-row.low .stock-qty small { color: #d68a1f; }
+.stock-forms { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; padding: 4px 14px 16px; }
+@media (max-width: 640px) { .stock-forms { grid-template-columns: 1fr; } }
+.move-form, .min-form { display: flex; flex-direction: column; gap: 10px; }
+.seg { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.seg label { flex: 1; text-align: center; padding: 8px 6px; cursor: pointer; font-size: 0.9rem; }
+.seg label.on { background: var(--accent); color: var(--accent-ink); }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.table-wrap { overflow-x: auto; }
+.hist { width: 100%; border-collapse: collapse; background: var(--surface); font-size: 0.9rem; }
+.hist th, .hist td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+.tag { border-radius: 999px; padding: 1px 8px; font-size: 0.8rem; }
+.tag-entrada { background: #dff3e7; color: #1f7a4a; }
+.tag-venda { background: #f6e1ea; color: #8c2f57; }
+.tag-acerto { background: #eee; color: #555; }

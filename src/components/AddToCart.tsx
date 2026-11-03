@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { hasSingleVariant, isComingSoon, type Product } from "@/lib/catalog";
 import { useCart } from "@/lib/cart";
 
@@ -11,6 +11,16 @@ export function AddToCart({ product }: { product: Product }) {
   const [sku, setSku] = useState(single ? product.variants[0].sku : "");
   const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
+  const [stock, setStock] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    fetch(`/api/stock?produto=${encodeURIComponent(product.id)}`)
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((d) => setStock(d as Record<string, number>))
+      .catch(() => {});
+  }, [product.id]);
+
+  const soldOut = (s: string) => stock[s] === 0;
 
   if (isComingSoon(product)) {
     return <p className="notice">Este produto chega brevemente.</p>;
@@ -24,8 +34,9 @@ export function AddToCart({ product }: { product: Product }) {
           <select value={sku} onChange={(e) => { setSku(e.target.value); setAdded(false); }}>
             <option value="">Selecione…</option>
             {product.variants.map((v) => (
-              <option key={v.sku} value={v.sku}>
+              <option key={v.sku} value={v.sku} disabled={soldOut(v.sku)}>
                 {v.name}
+                {soldOut(v.sku) ? " (esgotado)" : ""}
               </option>
             ))}
           </select>
@@ -43,13 +54,13 @@ export function AddToCart({ product }: { product: Product }) {
       </label>
       <button
         className="btn primary"
-        disabled={!sku}
+        disabled={!sku || soldOut(sku)}
         onClick={() => {
           add(sku, qty);
           setAdded(true);
         }}
       >
-        Adicionar ao carrinho
+        {sku && soldOut(sku) ? "Esgotado" : "Adicionar ao carrinho"}
       </button>
       {added && (
         <p className="notice ok" role="status">
