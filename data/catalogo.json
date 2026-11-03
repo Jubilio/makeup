@@ -1,0 +1,3138 @@
+{
+  "source": "INUKA Product Catalogue 2026 V1",
+  "currency": "MZN",
+  "products": [
+    {
+      "id": "modern-me-perfume-35ml",
+      "category": "Perfumes",
+      "line": "Modern Me",
+      "name": "Modern Me Perfume",
+      "size": "35ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "modern-me-perfume-35ml--mod-blue",
+          "name": "Mod Blue"
+        },
+        {
+          "sku": "modern-me-perfume-35ml--mod-green",
+          "name": "Mod Green"
+        },
+        {
+          "sku": "modern-me-perfume-35ml--mod-lime",
+          "name": "Mod Lime"
+        },
+        {
+          "sku": "modern-me-perfume-35ml--mod-orange",
+          "name": "Mod Orange"
+        },
+        {
+          "sku": "modern-me-perfume-35ml--mod-pink",
+          "name": "Mod Pink"
+        },
+        {
+          "sku": "modern-me-perfume-35ml--mod-purple",
+          "name": "Mod Purple"
+        },
+        {
+          "sku": "modern-me-perfume-35ml--mod-yellow",
+          "name": "Mod Yellow"
+        }
+      ],
+      "page": 3,
+      "note": ""
+    },
+    {
+      "id": "modern-me-lotion-50ml",
+      "category": "Corpo",
+      "line": "Modern Me",
+      "name": "Modern Me Lotion",
+      "size": "50ml",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "modern-me-lotion-50ml--mod-blue",
+          "name": "Mod Blue"
+        },
+        {
+          "sku": "modern-me-lotion-50ml--mod-green",
+          "name": "Mod Green"
+        },
+        {
+          "sku": "modern-me-lotion-50ml--mod-lime",
+          "name": "Mod Lime"
+        },
+        {
+          "sku": "modern-me-lotion-50ml--mod-orange",
+          "name": "Mod Orange"
+        },
+        {
+          "sku": "modern-me-lotion-50ml--mod-pink",
+          "name": "Mod Pink"
+        },
+        {
+          "sku": "modern-me-lotion-50ml--mod-purple",
+          "name": "Mod Purple"
+        },
+        {
+          "sku": "modern-me-lotion-50ml--mod-yellow",
+          "name": "Mod Yellow"
+        }
+      ],
+      "page": 3,
+      "note": ""
+    },
+    {
+      "id": "modern-me-hair-body-mist-100ml",
+      "category": "Corpo",
+      "line": "Modern Me",
+      "name": "Modern Me Hair & Body Mist",
+      "size": "100ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-blue",
+          "name": "Mod Blue"
+        },
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-green",
+          "name": "Mod Green"
+        },
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-lime",
+          "name": "Mod Lime"
+        },
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-orange",
+          "name": "Mod Orange"
+        },
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-pink",
+          "name": "Mod Pink"
+        },
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-purple",
+          "name": "Mod Purple"
+        },
+        {
+          "sku": "modern-me-hair-body-mist-100ml--mod-yellow",
+          "name": "Mod Yellow"
+        }
+      ],
+      "page": 3,
+      "note": ""
+    },
+    {
+      "id": "modern-me-bath-salt-220g",
+      "category": "Corpo",
+      "line": "Modern Me",
+      "name": "Modern Me Bath Salt",
+      "size": "220g",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "modern-me-bath-salt-220g--mod-blue",
+          "name": "Mod Blue"
+        },
+        {
+          "sku": "modern-me-bath-salt-220g--mod-green",
+          "name": "Mod Green"
+        },
+        {
+          "sku": "modern-me-bath-salt-220g--mod-lime",
+          "name": "Mod Lime"
+        },
+        {
+          "sku": "modern-me-bath-salt-220g--mod-orange",
+          "name": "Mod Orange"
+        },
+        {
+          "sku": "modern-me-bath-salt-220g--mod-pink",
+          "name": "Mod Pink"
+        },
+        {
+          "sku": "modern-me-bath-salt-220g--mod-purple",
+          "name": "Mod Purple"
+        },
+        {
+          "sku": "modern-me-bath-salt-220g--mod-yellow",
+          "name": "Mod Yellow"
+        }
+      ],
+      "page": 3,
+      "note": ""
+    },
+    {
+      "id": "modern-me-body-wash-50ml",
+      "category": "Corpo",
+      "line": "Modern Me",
+      "name": "Modern Me Body Wash",
+      "size": "50ml",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "modern-me-body-wash-50ml--mod-blue",
+          "name": "Mod Blue"
+        },
+        {
+          "sku": "modern-me-body-wash-50ml--mod-green",
+          "name": "Mod Green"
+        },
+        {
+          "sku": "modern-me-body-wash-50ml--mod-lime",
+          "name": "Mod Lime"
+        },
+        {
+          "sku": "modern-me-body-wash-50ml--mod-orange",
+          "name": "Mod Orange"
+        },
+        {
+          "sku": "modern-me-body-wash-50ml--mod-pink",
+          "name": "Mod Pink"
+        },
+        {
+          "sku": "modern-me-body-wash-50ml--mod-purple",
+          "name": "Mod Purple"
+        },
+        {
+          "sku": "modern-me-body-wash-50ml--mod-yellow",
+          "name": "Mod Yellow"
+        }
+      ],
+      "page": 3,
+      "note": ""
+    },
+    {
+      "id": "exclusive-range-perfume-30ml",
+      "category": "Perfumes",
+      "line": "Exclusive",
+      "name": "Exclusive Range Perfume",
+      "size": "30ml",
+      "price_mzn": 1500,
+      "variants": [
+        {
+          "sku": "exclusive-range-perfume-30ml--creed-aventus-for-her",
+          "name": "Creed Aventus for HER"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--empire-for-her",
+          "name": "Empire for HER"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--gold-for-her",
+          "name": "Gold for HER"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--imagine-for-her",
+          "name": "Imagine for HER"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--ke-nako-for-her",
+          "name": "Ke Nako for HER"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--superhero-for-her",
+          "name": "SuperHero for HER"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--creed-aventus-for-him",
+          "name": "Creed Aventus for HIM"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--empire-for-him",
+          "name": "Empire for HIM"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--gold-for-him",
+          "name": "Gold for HIM"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--superhero-for-him",
+          "name": "SuperHero for HIM"
+        },
+        {
+          "sku": "exclusive-range-perfume-30ml--ke-nako-gn",
+          "name": "Ke Nako (GN)"
+        }
+      ],
+      "page": 4,
+      "note": ""
+    },
+    {
+      "id": "exclusive-range-lotion-100ml",
+      "category": "Corpo",
+      "line": "Exclusive",
+      "name": "Exclusive Range Lotion",
+      "size": "100ml",
+      "price_mzn": 500,
+      "variants": [
+        {
+          "sku": "exclusive-range-lotion-100ml--creed-aventus-for-her",
+          "name": "Creed Aventus for HER"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--empire-for-her",
+          "name": "Empire for HER"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--gold-for-her",
+          "name": "Gold for HER"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--imagine-for-her",
+          "name": "Imagine for HER"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--ke-nako-for-her",
+          "name": "Ke Nako for HER"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--superhero-for-her",
+          "name": "SuperHero for HER"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--creed-aventus-for-him",
+          "name": "Creed Aventus for HIM"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--empire-for-him",
+          "name": "Empire for HIM"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--gold-for-him",
+          "name": "Gold for HIM"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--superhero-for-him",
+          "name": "SuperHero for HIM"
+        },
+        {
+          "sku": "exclusive-range-lotion-100ml--ke-nako-gn",
+          "name": "Ke Nako (GN)"
+        }
+      ],
+      "page": 4,
+      "note": ""
+    },
+    {
+      "id": "exclusive-range-body-wash-100ml",
+      "category": "Corpo",
+      "line": "Exclusive",
+      "name": "Exclusive Range Body Wash",
+      "size": "100ml",
+      "price_mzn": 450,
+      "variants": [
+        {
+          "sku": "exclusive-range-body-wash-100ml--creed-aventus-for-her",
+          "name": "Creed Aventus for HER"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--empire-for-her",
+          "name": "Empire for HER"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--gold-for-her",
+          "name": "Gold for HER"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--imagine-for-her",
+          "name": "Imagine for HER"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--ke-nako-for-her",
+          "name": "Ke Nako for HER"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--superhero-for-her",
+          "name": "SuperHero for HER"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--creed-aventus-for-him",
+          "name": "Creed Aventus for HIM"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--empire-for-him",
+          "name": "Empire for HIM"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--gold-for-him",
+          "name": "Gold for HIM"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--superhero-for-him",
+          "name": "SuperHero for HIM"
+        },
+        {
+          "sku": "exclusive-range-body-wash-100ml--ke-nako-gn",
+          "name": "Ke Nako (GN)"
+        }
+      ],
+      "page": 4,
+      "note": ""
+    },
+    {
+      "id": "exclusive-range-roll-on-50ml",
+      "category": "Corpo",
+      "line": "Exclusive",
+      "name": "Exclusive Range Roll-On",
+      "size": "50ml",
+      "price_mzn": 550,
+      "variants": [
+        {
+          "sku": "exclusive-range-roll-on-50ml--creed-aventus-for-her",
+          "name": "Creed Aventus for HER"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--empire-for-her",
+          "name": "Empire for HER"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--gold-for-her",
+          "name": "Gold for HER"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--imagine-for-her",
+          "name": "Imagine for HER"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--ke-nako-for-her",
+          "name": "Ke Nako for HER"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--superhero-for-her",
+          "name": "SuperHero for HER"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--creed-aventus-for-him",
+          "name": "Creed Aventus for HIM"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--empire-for-him",
+          "name": "Empire for HIM"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--gold-for-him",
+          "name": "Gold for HIM"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--superhero-for-him",
+          "name": "SuperHero for HIM"
+        },
+        {
+          "sku": "exclusive-range-roll-on-50ml--ke-nako-gn",
+          "name": "Ke Nako (GN)"
+        }
+      ],
+      "page": 4,
+      "note": ""
+    },
+    {
+      "id": "exclusive-range-after-shave-balm-100ml",
+      "category": "Corpo",
+      "line": "Exclusive",
+      "name": "Exclusive Range After Shave Balm",
+      "size": "100ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "exclusive-range-after-shave-balm-100ml--creed-aventus-for-him",
+          "name": "Creed Aventus for HIM"
+        },
+        {
+          "sku": "exclusive-range-after-shave-balm-100ml--empire-for-him",
+          "name": "Empire for HIM"
+        },
+        {
+          "sku": "exclusive-range-after-shave-balm-100ml--gold-for-him",
+          "name": "Gold for HIM"
+        },
+        {
+          "sku": "exclusive-range-after-shave-balm-100ml--superhero-for-him",
+          "name": "SuperHero for HIM"
+        }
+      ],
+      "page": 4,
+      "note": "Só nas fragrâncias masculinas"
+    },
+    {
+      "id": "signature-range-perfume-50ml",
+      "category": "Perfumes",
+      "line": "Signature",
+      "name": "Signature Range Perfume",
+      "size": "50ml",
+      "price_mzn": 2500,
+      "variants": [
+        {
+          "sku": "signature-range-perfume-50ml--eternal-bliss-for-her",
+          "name": "Eternal Bliss for HER"
+        },
+        {
+          "sku": "signature-range-perfume-50ml--imperial-grace-for-her",
+          "name": "Imperial Grace for HER"
+        },
+        {
+          "sku": "signature-range-perfume-50ml--pure-obsession-for-her",
+          "name": "Pure Obsession for HER"
+        },
+        {
+          "sku": "signature-range-perfume-50ml--majestic-dawn-for-him",
+          "name": "Majestic Dawn for HIM"
+        },
+        {
+          "sku": "signature-range-perfume-50ml--rising-king-for-him",
+          "name": "Rising King for HIM"
+        },
+        {
+          "sku": "signature-range-perfume-50ml--royal-legacy-for-him",
+          "name": "Royal Legacy for HIM"
+        }
+      ],
+      "page": 5,
+      "note": "Em caixa de oferta"
+    },
+    {
+      "id": "classic-range-perfume-30ml",
+      "category": "Perfumes",
+      "line": "Classic",
+      "name": "Classic Range Perfume",
+      "size": "30ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "classic-range-perfume-30ml--212-vip",
+          "name": "212 VIP"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--alien",
+          "name": "Alien"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--be-you-for-her",
+          "name": "Be You for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--billion-for-her",
+          "name": "Billion for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--black-opium",
+          "name": "Black Opium"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--black-orchid",
+          "name": "Black Orchid"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--capella",
+          "name": "Capella"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--coco-mademoiselle",
+          "name": "Coco Mademoiselle"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--crown",
+          "name": "Crown"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--crystal-for-her",
+          "name": "Crystal for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--diamond-for-her",
+          "name": "Diamond for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--dolce-gabbana",
+          "name": "Dolce & Gabbana"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--fabulous",
+          "name": "Fabulous"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--famous",
+          "name": "Famous"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--fierce-for-her",
+          "name": "Fierce for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--forever-creed-for-her",
+          "name": "Forever Creed for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--fortune",
+          "name": "Fortune"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--giorgio",
+          "name": "Giorgio"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--gucci-bloom",
+          "name": "Gucci Bloom"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--gucci-rush-for-her",
+          "name": "Gucci Rush for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--heavenly",
+          "name": "Heavenly"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--issey-miyake-her",
+          "name": "Issey Miyake (HER)"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--midnight-million-for-her",
+          "name": "Midnight Million for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--paradise-for-her",
+          "name": "Paradise for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--pulse",
+          "name": "Pulse"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--queen",
+          "name": "Queen"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--radiant-gold",
+          "name": "Radiant Gold"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--red-door",
+          "name": "Red Door"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--roberto-cavalli",
+          "name": "Roberto Cavalli"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--si-si",
+          "name": "Si-Si"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--timeless-for-her",
+          "name": "Timeless for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--unstoppable-for-her",
+          "name": "Unstoppable for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--yes-i-am",
+          "name": "Yes I Am"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--dylan-blue-for-her",
+          "name": "Dylan Blue for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--la-vie-est-belle",
+          "name": "La Vie Est Belle"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--hypnotic-poison",
+          "name": "Hypnotic Poison"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--jimmy-choo",
+          "name": "Jimmy Choo"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--olympea",
+          "name": "Olympea"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--vision-for-her",
+          "name": "Vision for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--angel",
+          "name": "Angel"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--inala-for-her",
+          "name": "Inala for HER"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--lady-million",
+          "name": "Lady Million"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--lady-deluxe",
+          "name": "Lady Deluxe"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--narciso-rodriguez",
+          "name": "Narciso Rodriguez"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--opulent",
+          "name": "Opulent"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--accent",
+          "name": "Accent"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--be-bold-brave-brilliant",
+          "name": "Be Bold, Brave, Brilliant"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--dare-to-be-rare",
+          "name": "Dare To Be Rare"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--ignite",
+          "name": "Ignite"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--212-him",
+          "name": "212 (HIM)"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--acqua-absolu",
+          "name": "Acqua Absolu"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--antonio-banderas",
+          "name": "Antonio Banderas"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--be-you-for-him",
+          "name": "Be You for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--billion-for-him",
+          "name": "Billion for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--champion",
+          "name": "Champion"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--desire-blue",
+          "name": "Desire Blue"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--diesel",
+          "name": "Diesel"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--dunhill-icon",
+          "name": "Dunhill Icon"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--eternal-gold",
+          "name": "Eternal Gold"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--fearless",
+          "name": "Fearless"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--forever-creed-for-him",
+          "name": "Forever Creed for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--invictus",
+          "name": "Invictus"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--invincible-for-him",
+          "name": "Invincible for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--issey-miyake-him",
+          "name": "Issey Miyake (HIM)"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--m7",
+          "name": "M7"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--midnight-million-for-him",
+          "name": "Midnight Million for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--only-you-for-him",
+          "name": "Only You for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--power",
+          "name": "Power"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--storm-for-him",
+          "name": "Storm for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--victory",
+          "name": "Victory"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--vip-night",
+          "name": "VIP Night"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--dylan-blue-for-him",
+          "name": "Dylan Blue for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--inala-for-him",
+          "name": "Inala for HIM"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--king",
+          "name": "King"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--magnificent",
+          "name": "Magnificent"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--royal",
+          "name": "Royal"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--1-million",
+          "name": "1 Million"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--million-deluxe",
+          "name": "Million Deluxe"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--icon-racing",
+          "name": "Icon Racing"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--lacoste-red",
+          "name": "Lacoste Red"
+        },
+        {
+          "sku": "classic-range-perfume-30ml--vision-for-him",
+          "name": "Vision for HIM"
+        }
+      ],
+      "page": 6,
+      "note": ""
+    },
+    {
+      "id": "classic-range-lotion-200ml",
+      "category": "Corpo",
+      "line": "Classic",
+      "name": "Classic Range Lotion",
+      "size": "200ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "classic-range-lotion-200ml--212-vip",
+          "name": "212 VIP"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--alien",
+          "name": "Alien"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--be-you-for-her",
+          "name": "Be You for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--billion-for-her",
+          "name": "Billion for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--black-opium",
+          "name": "Black Opium"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--black-orchid",
+          "name": "Black Orchid"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--capella",
+          "name": "Capella"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--coco-mademoiselle",
+          "name": "Coco Mademoiselle"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--crown",
+          "name": "Crown"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--crystal-for-her",
+          "name": "Crystal for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--diamond-for-her",
+          "name": "Diamond for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--dolce-gabbana",
+          "name": "Dolce & Gabbana"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--fabulous",
+          "name": "Fabulous"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--famous",
+          "name": "Famous"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--fierce-for-her",
+          "name": "Fierce for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--forever-creed-for-her",
+          "name": "Forever Creed for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--fortune",
+          "name": "Fortune"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--giorgio",
+          "name": "Giorgio"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--gucci-bloom",
+          "name": "Gucci Bloom"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--gucci-rush-for-her",
+          "name": "Gucci Rush for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--heavenly",
+          "name": "Heavenly"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--issey-miyake-her",
+          "name": "Issey Miyake (HER)"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--midnight-million-for-her",
+          "name": "Midnight Million for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--paradise-for-her",
+          "name": "Paradise for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--pulse",
+          "name": "Pulse"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--queen",
+          "name": "Queen"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--radiant-gold",
+          "name": "Radiant Gold"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--red-door",
+          "name": "Red Door"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--roberto-cavalli",
+          "name": "Roberto Cavalli"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--si-si",
+          "name": "Si-Si"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--timeless-for-her",
+          "name": "Timeless for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--unstoppable-for-her",
+          "name": "Unstoppable for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--yes-i-am",
+          "name": "Yes I Am"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--dylan-blue-for-her",
+          "name": "Dylan Blue for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--la-vie-est-belle",
+          "name": "La Vie Est Belle"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--hypnotic-poison",
+          "name": "Hypnotic Poison"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--jimmy-choo",
+          "name": "Jimmy Choo"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--olympea",
+          "name": "Olympea"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--vision-for-her",
+          "name": "Vision for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--angel",
+          "name": "Angel"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--inala-for-her",
+          "name": "Inala for HER"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--lady-million",
+          "name": "Lady Million"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--lady-deluxe",
+          "name": "Lady Deluxe"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--narciso-rodriguez",
+          "name": "Narciso Rodriguez"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--opulent",
+          "name": "Opulent"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--accent",
+          "name": "Accent"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--be-bold-brave-brilliant",
+          "name": "Be Bold, Brave, Brilliant"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--dare-to-be-rare",
+          "name": "Dare To Be Rare"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--ignite",
+          "name": "Ignite"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--212-him",
+          "name": "212 (HIM)"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--acqua-absolu",
+          "name": "Acqua Absolu"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--antonio-banderas",
+          "name": "Antonio Banderas"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--be-you-for-him",
+          "name": "Be You for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--billion-for-him",
+          "name": "Billion for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--champion",
+          "name": "Champion"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--desire-blue",
+          "name": "Desire Blue"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--diesel",
+          "name": "Diesel"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--dunhill-icon",
+          "name": "Dunhill Icon"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--eternal-gold",
+          "name": "Eternal Gold"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--fearless",
+          "name": "Fearless"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--forever-creed-for-him",
+          "name": "Forever Creed for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--invictus",
+          "name": "Invictus"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--invincible-for-him",
+          "name": "Invincible for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--issey-miyake-him",
+          "name": "Issey Miyake (HIM)"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--m7",
+          "name": "M7"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--midnight-million-for-him",
+          "name": "Midnight Million for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--only-you-for-him",
+          "name": "Only You for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--power",
+          "name": "Power"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--storm-for-him",
+          "name": "Storm for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--victory",
+          "name": "Victory"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--vip-night",
+          "name": "VIP Night"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--dylan-blue-for-him",
+          "name": "Dylan Blue for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--inala-for-him",
+          "name": "Inala for HIM"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--king",
+          "name": "King"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--magnificent",
+          "name": "Magnificent"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--royal",
+          "name": "Royal"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--1-million",
+          "name": "1 Million"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--million-deluxe",
+          "name": "Million Deluxe"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--icon-racing",
+          "name": "Icon Racing"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--lacoste-red",
+          "name": "Lacoste Red"
+        },
+        {
+          "sku": "classic-range-lotion-200ml--vision-for-him",
+          "name": "Vision for HIM"
+        }
+      ],
+      "page": 7,
+      "note": "CONFIRMAR: revista remete a 'lista da pág. 8' que não existe; assumi as fragrâncias Classic"
+    },
+    {
+      "id": "classic-range-body-wash-200ml",
+      "category": "Corpo",
+      "line": "Classic",
+      "name": "Classic Range Body Wash",
+      "size": "200ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "classic-range-body-wash-200ml--212-vip",
+          "name": "212 VIP"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--alien",
+          "name": "Alien"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--be-you-for-her",
+          "name": "Be You for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--billion-for-her",
+          "name": "Billion for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--black-opium",
+          "name": "Black Opium"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--black-orchid",
+          "name": "Black Orchid"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--capella",
+          "name": "Capella"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--coco-mademoiselle",
+          "name": "Coco Mademoiselle"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--crown",
+          "name": "Crown"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--crystal-for-her",
+          "name": "Crystal for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--diamond-for-her",
+          "name": "Diamond for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--dolce-gabbana",
+          "name": "Dolce & Gabbana"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--fabulous",
+          "name": "Fabulous"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--famous",
+          "name": "Famous"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--fierce-for-her",
+          "name": "Fierce for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--forever-creed-for-her",
+          "name": "Forever Creed for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--fortune",
+          "name": "Fortune"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--giorgio",
+          "name": "Giorgio"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--gucci-bloom",
+          "name": "Gucci Bloom"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--gucci-rush-for-her",
+          "name": "Gucci Rush for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--heavenly",
+          "name": "Heavenly"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--issey-miyake-her",
+          "name": "Issey Miyake (HER)"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--midnight-million-for-her",
+          "name": "Midnight Million for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--paradise-for-her",
+          "name": "Paradise for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--pulse",
+          "name": "Pulse"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--queen",
+          "name": "Queen"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--radiant-gold",
+          "name": "Radiant Gold"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--red-door",
+          "name": "Red Door"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--roberto-cavalli",
+          "name": "Roberto Cavalli"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--si-si",
+          "name": "Si-Si"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--timeless-for-her",
+          "name": "Timeless for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--unstoppable-for-her",
+          "name": "Unstoppable for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--yes-i-am",
+          "name": "Yes I Am"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--dylan-blue-for-her",
+          "name": "Dylan Blue for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--la-vie-est-belle",
+          "name": "La Vie Est Belle"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--hypnotic-poison",
+          "name": "Hypnotic Poison"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--jimmy-choo",
+          "name": "Jimmy Choo"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--olympea",
+          "name": "Olympea"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--vision-for-her",
+          "name": "Vision for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--angel",
+          "name": "Angel"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--inala-for-her",
+          "name": "Inala for HER"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--lady-million",
+          "name": "Lady Million"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--lady-deluxe",
+          "name": "Lady Deluxe"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--narciso-rodriguez",
+          "name": "Narciso Rodriguez"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--opulent",
+          "name": "Opulent"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--accent",
+          "name": "Accent"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--be-bold-brave-brilliant",
+          "name": "Be Bold, Brave, Brilliant"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--dare-to-be-rare",
+          "name": "Dare To Be Rare"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--ignite",
+          "name": "Ignite"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--212-him",
+          "name": "212 (HIM)"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--acqua-absolu",
+          "name": "Acqua Absolu"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--antonio-banderas",
+          "name": "Antonio Banderas"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--be-you-for-him",
+          "name": "Be You for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--billion-for-him",
+          "name": "Billion for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--champion",
+          "name": "Champion"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--desire-blue",
+          "name": "Desire Blue"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--diesel",
+          "name": "Diesel"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--dunhill-icon",
+          "name": "Dunhill Icon"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--eternal-gold",
+          "name": "Eternal Gold"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--fearless",
+          "name": "Fearless"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--forever-creed-for-him",
+          "name": "Forever Creed for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--invictus",
+          "name": "Invictus"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--invincible-for-him",
+          "name": "Invincible for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--issey-miyake-him",
+          "name": "Issey Miyake (HIM)"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--m7",
+          "name": "M7"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--midnight-million-for-him",
+          "name": "Midnight Million for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--only-you-for-him",
+          "name": "Only You for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--power",
+          "name": "Power"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--storm-for-him",
+          "name": "Storm for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--victory",
+          "name": "Victory"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--vip-night",
+          "name": "VIP Night"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--dylan-blue-for-him",
+          "name": "Dylan Blue for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--inala-for-him",
+          "name": "Inala for HIM"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--king",
+          "name": "King"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--magnificent",
+          "name": "Magnificent"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--royal",
+          "name": "Royal"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--1-million",
+          "name": "1 Million"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--million-deluxe",
+          "name": "Million Deluxe"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--icon-racing",
+          "name": "Icon Racing"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--lacoste-red",
+          "name": "Lacoste Red"
+        },
+        {
+          "sku": "classic-range-body-wash-200ml--vision-for-him",
+          "name": "Vision for HIM"
+        }
+      ],
+      "page": 7,
+      "note": "CONFIRMAR: mesmas fragrâncias da loção"
+    },
+    {
+      "id": "luxury-travel-fragrance-set-5x10ml",
+      "category": "Perfumes",
+      "line": "Luxury Travel",
+      "name": "Luxury Travel Fragrance Set",
+      "size": "5x10ml",
+      "price_mzn": 2500,
+      "variants": [
+        {
+          "sku": "luxury-travel-fragrance-set-5x10ml--pour-femme",
+          "name": "Pour Femme"
+        },
+        {
+          "sku": "luxury-travel-fragrance-set-5x10ml--pour-homme",
+          "name": "Pour Homme"
+        }
+      ],
+      "page": 9,
+      "note": "Edição limitada"
+    },
+    {
+      "id": "message-in-a-bottle-perfume-30ml",
+      "category": "Perfumes",
+      "line": "Message in a Bottle",
+      "name": "Message in a Bottle Perfume",
+      "size": "30ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "message-in-a-bottle-perfume-30ml--peace",
+          "name": "Peace"
+        },
+        {
+          "sku": "message-in-a-bottle-perfume-30ml--hope",
+          "name": "Hope"
+        },
+        {
+          "sku": "message-in-a-bottle-perfume-30ml--faith",
+          "name": "Faith"
+        },
+        {
+          "sku": "message-in-a-bottle-perfume-30ml--dream",
+          "name": "Dream"
+        }
+      ],
+      "page": 10,
+      "note": ""
+    },
+    {
+      "id": "message-in-a-bottle-lotion-200ml",
+      "category": "Corpo",
+      "line": "Message in a Bottle",
+      "name": "Message in a Bottle Lotion",
+      "size": "200ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "message-in-a-bottle-lotion-200ml--peace",
+          "name": "Peace"
+        },
+        {
+          "sku": "message-in-a-bottle-lotion-200ml--hope",
+          "name": "Hope"
+        },
+        {
+          "sku": "message-in-a-bottle-lotion-200ml--faith",
+          "name": "Faith"
+        },
+        {
+          "sku": "message-in-a-bottle-lotion-200ml--dream",
+          "name": "Dream"
+        }
+      ],
+      "page": 10,
+      "note": ""
+    },
+    {
+      "id": "message-in-a-bottle-body-wash-200ml",
+      "category": "Corpo",
+      "line": "Message in a Bottle",
+      "name": "Message in a Bottle Body Wash",
+      "size": "200ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "message-in-a-bottle-body-wash-200ml--peace",
+          "name": "Peace"
+        },
+        {
+          "sku": "message-in-a-bottle-body-wash-200ml--hope",
+          "name": "Hope"
+        },
+        {
+          "sku": "message-in-a-bottle-body-wash-200ml--faith",
+          "name": "Faith"
+        },
+        {
+          "sku": "message-in-a-bottle-body-wash-200ml--dream",
+          "name": "Dream"
+        }
+      ],
+      "page": 10,
+      "note": ""
+    },
+    {
+      "id": "message-in-a-bottle-tissue-oil-100ml",
+      "category": "Corpo",
+      "line": "Message in a Bottle",
+      "name": "Message in a Bottle Tissue Oil",
+      "size": "100ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "message-in-a-bottle-tissue-oil-100ml--peace",
+          "name": "Peace"
+        },
+        {
+          "sku": "message-in-a-bottle-tissue-oil-100ml--hope",
+          "name": "Hope"
+        },
+        {
+          "sku": "message-in-a-bottle-tissue-oil-100ml--faith",
+          "name": "Faith"
+        },
+        {
+          "sku": "message-in-a-bottle-tissue-oil-100ml--dream",
+          "name": "Dream"
+        }
+      ],
+      "page": 10,
+      "note": ""
+    },
+    {
+      "id": "reed-room-diffuser-120ml",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Reed Room Diffuser",
+      "size": "120ml",
+      "price_mzn": 1500,
+      "variants": [
+        {
+          "sku": "reed-room-diffuser-120ml--amber-aura",
+          "name": "Amber Aura"
+        },
+        {
+          "sku": "reed-room-diffuser-120ml--midnight-calm",
+          "name": "Midnight Calm"
+        }
+      ],
+      "page": 12,
+      "note": ""
+    },
+    {
+      "id": "scented-fragranced-envelope-10g",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Scented Fragranced Envelope",
+      "size": "10g",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "scented-fragranced-envelope-10g--amber-aura",
+          "name": "Amber Aura"
+        },
+        {
+          "sku": "scented-fragranced-envelope-10g--midnight-calm",
+          "name": "Midnight Calm"
+        }
+      ],
+      "page": 13,
+      "note": ""
+    },
+    {
+      "id": "car-wardrobe-diffuser-7ml",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Car & Wardrobe Diffuser",
+      "size": "7ml",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "car-wardrobe-diffuser-7ml--be-bold-brave-brilliant",
+          "name": "Be Bold, Brave, Brilliant"
+        },
+        {
+          "sku": "car-wardrobe-diffuser-7ml--creed-aventus-for-her",
+          "name": "Creed Aventus for HER"
+        },
+        {
+          "sku": "car-wardrobe-diffuser-7ml--creed-aventus-for-him",
+          "name": "Creed Aventus for HIM"
+        },
+        {
+          "sku": "car-wardrobe-diffuser-7ml--dare-to-be-rare",
+          "name": "Dare to be Rare"
+        },
+        {
+          "sku": "car-wardrobe-diffuser-7ml--ke-nako",
+          "name": "Ke Nako"
+        }
+      ],
+      "page": 13,
+      "note": ""
+    },
+    {
+      "id": "room-mist-100ml",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Room Mist",
+      "size": "100ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "room-mist-100ml--rain",
+          "name": "Rain"
+        },
+        {
+          "sku": "room-mist-100ml--rose",
+          "name": "Rose"
+        }
+      ],
+      "page": 13,
+      "note": ""
+    },
+    {
+      "id": "bloom-the-room-mist-125ml",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Bloom The Room Mist",
+      "size": "125ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "bloom-the-room-mist-125ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 29,
+      "note": ""
+    },
+    {
+      "id": "lime-basil-mandarin-hand-sanitizer-45ml",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Lime, Basil & Mandarin Hand Sanitizer",
+      "size": "45ml",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "lime-basil-mandarin-hand-sanitizer-45ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 29,
+      "note": ""
+    },
+    {
+      "id": "waterless-hand-sanitizing-gel-300ml",
+      "category": "Casa",
+      "line": "Home",
+      "name": "Waterless Hand Sanitizing Gel",
+      "size": "300ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "waterless-hand-sanitizing-gel-300ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 29,
+      "note": ""
+    },
+    {
+      "id": "little-miss-edt-perfume-mist-30ml",
+      "category": "Criança",
+      "line": "Little Miss",
+      "name": "Little Miss EDT Perfume Mist",
+      "size": "30ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "little-miss-edt-perfume-mist-30ml--adorable",
+          "name": "Adorable"
+        },
+        {
+          "sku": "little-miss-edt-perfume-mist-30ml--charming",
+          "name": "Charming"
+        }
+      ],
+      "page": 14,
+      "note": ""
+    },
+    {
+      "id": "little-miss-lotion-200ml",
+      "category": "Criança",
+      "line": "Little Miss",
+      "name": "Little Miss Lotion",
+      "size": "200ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "little-miss-lotion-200ml--adorable",
+          "name": "Adorable"
+        },
+        {
+          "sku": "little-miss-lotion-200ml--charming",
+          "name": "Charming"
+        }
+      ],
+      "page": 14,
+      "note": ""
+    },
+    {
+      "id": "youth-collection-perfume-45ml",
+      "category": "Criança",
+      "line": "Youth Collection",
+      "name": "Youth Collection Perfume",
+      "size": "45ml",
+      "price_mzn": 900,
+      "variants": [
+        {
+          "sku": "youth-collection-perfume-45ml--sparkle-rush",
+          "name": "Sparkle Rush"
+        },
+        {
+          "sku": "youth-collection-perfume-45ml--sweet-crush",
+          "name": "Sweet Crush"
+        },
+        {
+          "sku": "youth-collection-perfume-45ml--sugar-pop",
+          "name": "Sugar Pop"
+        },
+        {
+          "sku": "youth-collection-perfume-45ml--jet-blaze",
+          "name": "Jet Blaze"
+        },
+        {
+          "sku": "youth-collection-perfume-45ml--game-on",
+          "name": "Game On"
+        }
+      ],
+      "page": 15,
+      "note": "Revista diz 'Coming soon'"
+    },
+    {
+      "id": "epsom-soak-for-kiddies-900g",
+      "category": "Criança",
+      "line": "Mohlolo Kids",
+      "name": "Epsom Soak for Kiddies",
+      "size": "900g",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "epsom-soak-for-kiddies-900g--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 16,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-shampoo-body-wash-300ml",
+      "category": "Criança",
+      "line": "Mohlolo Kids",
+      "name": "Mohlolo Shampoo + Body Wash",
+      "size": "300ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "mohlolo-shampoo-body-wash-300ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 16,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-bubble-bath-300ml",
+      "category": "Criança",
+      "line": "Mohlolo Kids",
+      "name": "Mohlolo Bubble Bath",
+      "size": "300ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "mohlolo-bubble-bath-300ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 16,
+      "note": ""
+    },
+    {
+      "id": "insect-repellent-serum-50ml",
+      "category": "Bem-estar",
+      "line": "Mohlolo",
+      "name": "Insect Repellent Serum",
+      "size": "50ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "insect-repellent-serum-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 17,
+      "note": ""
+    },
+    {
+      "id": "intense-therapy-lip-balm-15ml",
+      "category": "Lábios",
+      "line": "Mohlolo",
+      "name": "Intense Therapy Lip Balm",
+      "size": "15ml",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "intense-therapy-lip-balm-15ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 17,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-hair-rinse-off-250ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Hair Rinse Off",
+      "size": "250ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-hair-rinse-off-250ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 19,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-hair-braid-spray-250ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Hair & Braid Spray",
+      "size": "250ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-hair-braid-spray-250ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 19,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-hair-food-styling-pomade-150ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Hair Food & Styling Pomade",
+      "size": "150ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-hair-food-styling-pomade-150ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 19,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-coffee-infused-hair-growth-oil-50ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Coffee Infused Hair Growth Oil",
+      "size": "50ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-coffee-infused-hair-growth-oil-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 20,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-hair-serum-50ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Hair Serum",
+      "size": "50ml",
+      "price_mzn": 1500,
+      "variants": [
+        {
+          "sku": "mohlolo-hair-serum-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 20,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-revitalizing-shampoo-200ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Revitalizing Shampoo",
+      "size": "200ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-revitalizing-shampoo-200ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 21,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-nourishing-conditioner-200ml",
+      "category": "Cabelo",
+      "line": "Mohlolo",
+      "name": "Mohlolo Nourishing Conditioner",
+      "size": "200ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-nourishing-conditioner-200ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 21,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-skin-clearing-30ml",
+      "category": "Pele",
+      "line": "Mohlolo",
+      "name": "Mohlolo Skin Clearing",
+      "size": "30ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-skin-clearing-30ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 22,
+      "note": ""
+    },
+    {
+      "id": "mohlolo-miracle-oil-30ml",
+      "category": "Pele",
+      "line": "Mohlolo",
+      "name": "Mohlolo Miracle Oil",
+      "size": "30ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "mohlolo-miracle-oil-30ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 22,
+      "note": ""
+    },
+    {
+      "id": "essential-oil-blend-10ml",
+      "category": "Bem-estar",
+      "line": "Mohlolo",
+      "name": "Essential Oil Blend",
+      "size": "10ml",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "essential-oil-blend-10ml--soothing",
+          "name": "Soothing"
+        },
+        {
+          "sku": "essential-oil-blend-10ml--protective",
+          "name": "Protective"
+        },
+        {
+          "sku": "essential-oil-blend-10ml--calming",
+          "name": "Calming"
+        },
+        {
+          "sku": "essential-oil-blend-10ml--skin-clearing",
+          "name": "Skin Clearing"
+        },
+        {
+          "sku": "essential-oil-blend-10ml--uplifting",
+          "name": "Uplifting"
+        },
+        {
+          "sku": "essential-oil-blend-10ml--health-shield",
+          "name": "Health Shield"
+        }
+      ],
+      "page": 23,
+      "note": ""
+    },
+    {
+      "id": "essential-oil-set-6x10ml",
+      "category": "Bem-estar",
+      "line": "Mohlolo",
+      "name": "Essential Oil Set",
+      "size": "6x10ml",
+      "price_mzn": 2000,
+      "variants": [
+        {
+          "sku": "essential-oil-set-6x10ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 23,
+      "note": ""
+    },
+    {
+      "id": "sports-massage-oil-30ml",
+      "category": "Bem-estar",
+      "line": "Mohlolo",
+      "name": "Sports Massage Oil",
+      "size": "30ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "sports-massage-oil-30ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 24,
+      "note": ""
+    },
+    {
+      "id": "relief-remedy-rub-50ml",
+      "category": "Bem-estar",
+      "line": "Mohlolo",
+      "name": "Relief Remedy Rub",
+      "size": "50ml",
+      "price_mzn": 900,
+      "variants": [
+        {
+          "sku": "relief-remedy-rub-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 24,
+      "note": ""
+    },
+    {
+      "id": "epsom-soak-soothing-900g",
+      "category": "Bem-estar",
+      "line": "Epsom",
+      "name": "Epsom Soak Soothing",
+      "size": "900g",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "epsom-soak-soothing-900g--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 25,
+      "note": ""
+    },
+    {
+      "id": "epsom-soak-relaxing-900g",
+      "category": "Bem-estar",
+      "line": "Epsom",
+      "name": "Epsom Soak Relaxing",
+      "size": "900g",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "epsom-soak-relaxing-900g--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 25,
+      "note": ""
+    },
+    {
+      "id": "lala-pillow-spray-100ml",
+      "category": "Bem-estar",
+      "line": "Sleep Well",
+      "name": "Lala Pillow Spray",
+      "size": "100ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "lala-pillow-spray-100ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 26,
+      "note": ""
+    },
+    {
+      "id": "natural-skin-repair-oil-125ml",
+      "category": "Bem-estar",
+      "line": "Sleep Well",
+      "name": "Natural Skin Repair Oil",
+      "size": "125ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "natural-skin-repair-oil-125ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 27,
+      "note": ""
+    },
+    {
+      "id": "linen-pillow-pyjama-mist-125ml",
+      "category": "Bem-estar",
+      "line": "Sleep Well",
+      "name": "Linen, Pillow & Pyjama Mist",
+      "size": "125ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "linen-pillow-pyjama-mist-125ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 27,
+      "note": ""
+    },
+    {
+      "id": "good-night-massage-oil-30ml",
+      "category": "Bem-estar",
+      "line": "Sleep Well",
+      "name": "Good Night Massage Oil",
+      "size": "30ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "good-night-massage-oil-30ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 27,
+      "note": ""
+    },
+    {
+      "id": "tissue-oil-150ml",
+      "category": "Pele",
+      "line": "Tissue Oil",
+      "name": "Tissue Oil",
+      "size": "150ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "tissue-oil-150ml--lavender",
+          "name": "Lavender"
+        },
+        {
+          "sku": "tissue-oil-150ml--orange-jasmine",
+          "name": "Orange Jasmine"
+        }
+      ],
+      "page": 28,
+      "note": ""
+    },
+    {
+      "id": "hand-body-lotion-300ml",
+      "category": "Corpo",
+      "line": "Luxury Bath",
+      "name": "Hand & Body Lotion",
+      "size": "300ml",
+      "price_mzn": 900,
+      "variants": [
+        {
+          "sku": "hand-body-lotion-300ml--kendi",
+          "name": "Kendi"
+        },
+        {
+          "sku": "hand-body-lotion-300ml--lumi",
+          "name": "Lumi"
+        },
+        {
+          "sku": "hand-body-lotion-300ml--komo",
+          "name": "Komo"
+        },
+        {
+          "sku": "hand-body-lotion-300ml--alila",
+          "name": "Alila"
+        },
+        {
+          "sku": "hand-body-lotion-300ml--amari",
+          "name": "Amari"
+        }
+      ],
+      "page": 30,
+      "note": ""
+    },
+    {
+      "id": "hand-body-wash-300ml",
+      "category": "Corpo",
+      "line": "Luxury Bath",
+      "name": "Hand & Body Wash",
+      "size": "300ml",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "hand-body-wash-300ml--kendi",
+          "name": "Kendi"
+        },
+        {
+          "sku": "hand-body-wash-300ml--lumi",
+          "name": "Lumi"
+        },
+        {
+          "sku": "hand-body-wash-300ml--komo",
+          "name": "Komo"
+        },
+        {
+          "sku": "hand-body-wash-300ml--alila",
+          "name": "Alila"
+        },
+        {
+          "sku": "hand-body-wash-300ml--amari",
+          "name": "Amari"
+        }
+      ],
+      "page": 30,
+      "note": ""
+    },
+    {
+      "id": "bath-salts-390g",
+      "category": "Corpo",
+      "line": "Luxury Bath",
+      "name": "Bath Salts",
+      "size": "390g",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "bath-salts-390g--kendi",
+          "name": "Kendi"
+        },
+        {
+          "sku": "bath-salts-390g--lumi",
+          "name": "Lumi"
+        },
+        {
+          "sku": "bath-salts-390g--komo",
+          "name": "Komo"
+        },
+        {
+          "sku": "bath-salts-390g--alila",
+          "name": "Alila"
+        },
+        {
+          "sku": "bath-salts-390g--amari",
+          "name": "Amari"
+        }
+      ],
+      "page": 30,
+      "note": ""
+    },
+    {
+      "id": "heel-repair-balm-60ml",
+      "category": "Pés",
+      "line": "Foot Range",
+      "name": "Heel Repair Balm",
+      "size": "60ml",
+      "price_mzn": 800,
+      "variants": [
+        {
+          "sku": "heel-repair-balm-60ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 32,
+      "note": ""
+    },
+    {
+      "id": "cooling-foot-mist-100ml",
+      "category": "Pés",
+      "line": "Foot Range",
+      "name": "Cooling Foot Mist",
+      "size": "100ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "cooling-foot-mist-100ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 32,
+      "note": ""
+    },
+    {
+      "id": "mineral-foot-soak-200ml",
+      "category": "Pés",
+      "line": "Foot Range",
+      "name": "Mineral Foot Soak",
+      "size": "200ml",
+      "price_mzn": 800,
+      "variants": [
+        {
+          "sku": "mineral-foot-soak-200ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 33,
+      "note": ""
+    },
+    {
+      "id": "mineral-foot-scrub-200ml",
+      "category": "Pés",
+      "line": "Foot Range",
+      "name": "Mineral Foot Scrub",
+      "size": "200ml",
+      "price_mzn": 800,
+      "variants": [
+        {
+          "sku": "mineral-foot-scrub-200ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 33,
+      "note": ""
+    },
+    {
+      "id": "mineral-foot-moisturizer-200ml",
+      "category": "Pés",
+      "line": "Foot Range",
+      "name": "Mineral Foot Moisturizer",
+      "size": "200ml",
+      "price_mzn": 900,
+      "variants": [
+        {
+          "sku": "mineral-foot-moisturizer-200ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 33,
+      "note": ""
+    },
+    {
+      "id": "daily-facial-foaming-cleanser-150ml",
+      "category": "Pele",
+      "line": "Skincare",
+      "name": "Daily Facial Foaming Cleanser",
+      "size": "150ml",
+      "price_mzn": 1500,
+      "variants": [
+        {
+          "sku": "daily-facial-foaming-cleanser-150ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 34,
+      "note": ""
+    },
+    {
+      "id": "natural-gentle-makeup-removing-oil-50ml",
+      "category": "Pele",
+      "line": "Skincare",
+      "name": "Natural & Gentle Makeup Removing Oil",
+      "size": "50ml",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "natural-gentle-makeup-removing-oil-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 34,
+      "note": ""
+    },
+    {
+      "id": "multi-effect-moisturizer-45ml",
+      "category": "Pele",
+      "line": "Skincare",
+      "name": "Multi Effect Moisturizer",
+      "size": "45ml",
+      "price_mzn": 1500,
+      "variants": [
+        {
+          "sku": "multi-effect-moisturizer-45ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 35,
+      "note": ""
+    },
+    {
+      "id": "hydrating-facial-essence-50ml",
+      "category": "Pele",
+      "line": "Skincare",
+      "name": "Hydrating Facial Essence",
+      "size": "50ml",
+      "price_mzn": 500,
+      "variants": [
+        {
+          "sku": "hydrating-facial-essence-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 36,
+      "note": ""
+    },
+    {
+      "id": "age-defying-squalane-serum-50ml",
+      "category": "Pele",
+      "line": "Skincare",
+      "name": "Age-Defying Squalane Serum",
+      "size": "50ml",
+      "price_mzn": 1300,
+      "variants": [
+        {
+          "sku": "age-defying-squalane-serum-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 36,
+      "note": ""
+    },
+    {
+      "id": "solar-shield-sunscreen-spf50-50ml",
+      "category": "Pele",
+      "line": "Skincare",
+      "name": "Solar Shield Sunscreen SPF50",
+      "size": "50ml",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "solar-shield-sunscreen-spf50-50ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 48,
+      "note": "Disponível a partir de jan. 2026"
+    },
+    {
+      "id": "flawless-skin-perfecting-foundation-35ml",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Flawless Skin Perfecting Foundation",
+      "size": "35ml",
+      "price_mzn": 1300,
+      "variants": [
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--porcelain",
+          "name": "Porcelain"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--nude",
+          "name": "Nude"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--sand",
+          "name": "Sand"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--latte",
+          "name": "Latte"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--caramel",
+          "name": "Caramel"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--fudge",
+          "name": "Fudge"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--almond",
+          "name": "Almond"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--cocoa",
+          "name": "Cocoa"
+        },
+        {
+          "sku": "flawless-skin-perfecting-foundation-35ml--espresso",
+          "name": "Espresso"
+        }
+      ],
+      "page": 37,
+      "note": ""
+    },
+    {
+      "id": "mattifying-loose-powder-5g",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Mattifying Loose Powder",
+      "size": "5g",
+      "price_mzn": 1200,
+      "variants": [
+        {
+          "sku": "mattifying-loose-powder-5g--mlp70",
+          "name": "MLP70"
+        },
+        {
+          "sku": "mattifying-loose-powder-5g--mlp71",
+          "name": "MLP71"
+        },
+        {
+          "sku": "mattifying-loose-powder-5g--mlp72",
+          "name": "MLP72"
+        },
+        {
+          "sku": "mattifying-loose-powder-5g--mlp73",
+          "name": "MLP73"
+        }
+      ],
+      "page": 37,
+      "note": ""
+    },
+    {
+      "id": "3-in-1-eyebrow-pencil",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "3 in 1 Eyebrow Pencil",
+      "size": "",
+      "price_mzn": 1000,
+      "variants": [
+        {
+          "sku": "3-in-1-eyebrow-pencil--black-eb10",
+          "name": "Black (EB10)"
+        },
+        {
+          "sku": "3-in-1-eyebrow-pencil--brown-eb20",
+          "name": "Brown (EB20)"
+        }
+      ],
+      "page": 38,
+      "note": ""
+    },
+    {
+      "id": "long-wear-liquid-eyeliner",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Long-Wear Liquid Eyeliner",
+      "size": "",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "long-wear-liquid-eyeliner--black-le40",
+          "name": "Black (LE40)"
+        },
+        {
+          "sku": "long-wear-liquid-eyeliner--brown-le41",
+          "name": "Brown (LE41)"
+        }
+      ],
+      "page": 39,
+      "note": "CONFIRMAR qual código é preto e qual é castanho"
+    },
+    {
+      "id": "gel-pencil-eyeliner",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Gel Pencil Eyeliner",
+      "size": "",
+      "price_mzn": 950,
+      "variants": [
+        {
+          "sku": "gel-pencil-eyeliner--white",
+          "name": "White"
+        },
+        {
+          "sku": "gel-pencil-eyeliner--dark-blue",
+          "name": "Dark Blue"
+        },
+        {
+          "sku": "gel-pencil-eyeliner--dark-green",
+          "name": "Dark Green"
+        },
+        {
+          "sku": "gel-pencil-eyeliner--brown",
+          "name": "Brown"
+        }
+      ],
+      "page": 39,
+      "note": "CONFIRMAR cores (lidas da imagem)"
+    },
+    {
+      "id": "fibre-volumizing-mascara",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Fibre Volumizing Mascara",
+      "size": "",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "fibre-volumizing-mascara--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 40,
+      "note": ""
+    },
+    {
+      "id": "extreme-impact-fibre-mascara",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Extreme Impact Fibre Mascara",
+      "size": "",
+      "price_mzn": 1000,
+      "variants": [
+        {
+          "sku": "extreme-impact-fibre-mascara--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 40,
+      "note": ""
+    },
+    {
+      "id": "eyeshadow-palette-9-shades",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Eyeshadow Palette 9 Shades",
+      "size": "",
+      "price_mzn": 1500,
+      "variants": [
+        {
+          "sku": "eyeshadow-palette-9-shades--es71-shimmer",
+          "name": "ES71 Shimmer"
+        },
+        {
+          "sku": "eyeshadow-palette-9-shades--es72-matte",
+          "name": "ES72 Matte"
+        }
+      ],
+      "page": 41,
+      "note": ""
+    },
+    {
+      "id": "mineral-blusher-9g",
+      "category": "Maquilhagem",
+      "line": "Makeup",
+      "name": "Mineral Blusher",
+      "size": "9g",
+      "price_mzn": 1400,
+      "variants": [
+        {
+          "sku": "mineral-blusher-9g--mb24",
+          "name": "MB24"
+        },
+        {
+          "sku": "mineral-blusher-9g--mb25",
+          "name": "MB25"
+        }
+      ],
+      "page": 41,
+      "note": ""
+    },
+    {
+      "id": "matt-liquid-lipstick",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Matt Liquid Lipstick",
+      "size": "",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "matt-liquid-lipstick--ml10",
+          "name": "ML10"
+        },
+        {
+          "sku": "matt-liquid-lipstick--ml11",
+          "name": "ML11"
+        },
+        {
+          "sku": "matt-liquid-lipstick--ml12",
+          "name": "ML12"
+        },
+        {
+          "sku": "matt-liquid-lipstick--ml13",
+          "name": "ML13"
+        },
+        {
+          "sku": "matt-liquid-lipstick--ml14",
+          "name": "ML14"
+        },
+        {
+          "sku": "matt-liquid-lipstick--ml15",
+          "name": "ML15"
+        },
+        {
+          "sku": "matt-liquid-lipstick--ml16",
+          "name": "ML16"
+        }
+      ],
+      "page": 42,
+      "note": ""
+    },
+    {
+      "id": "satin-liquid-lipstick",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Satin Liquid Lipstick",
+      "size": "",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "satin-liquid-lipstick--sl20",
+          "name": "SL20"
+        },
+        {
+          "sku": "satin-liquid-lipstick--sl21",
+          "name": "SL21"
+        },
+        {
+          "sku": "satin-liquid-lipstick--sl22",
+          "name": "SL22"
+        },
+        {
+          "sku": "satin-liquid-lipstick--sl23",
+          "name": "SL23"
+        },
+        {
+          "sku": "satin-liquid-lipstick--sl24",
+          "name": "SL24"
+        }
+      ],
+      "page": 42,
+      "note": ""
+    },
+    {
+      "id": "lipstick-removing-oil-30ml",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Lipstick Removing Oil",
+      "size": "30ml",
+      "price_mzn": null,
+      "variants": [
+        {
+          "sku": "lipstick-removing-oil-30ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 43,
+      "note": "SEM PREÇO na revista"
+    },
+    {
+      "id": "lip-gloss-2-3g",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Lip Gloss",
+      "size": "2,3g",
+      "price_mzn": 600,
+      "variants": [
+        {
+          "sku": "lip-gloss-2-3g--lg50-clear-shine",
+          "name": "LG50 Clear Shine"
+        },
+        {
+          "sku": "lip-gloss-2-3g--lg51-silver-shimmer",
+          "name": "LG51 Silver Shimmer"
+        },
+        {
+          "sku": "lip-gloss-2-3g--lg52-holographic-shimmer",
+          "name": "LG52 Holographic Shimmer"
+        },
+        {
+          "sku": "lip-gloss-2-3g--lg53-gold-shimmer",
+          "name": "LG53 Gold Shimmer"
+        }
+      ],
+      "page": 43,
+      "note": ""
+    },
+    {
+      "id": "lipliner",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Lipliner",
+      "size": "",
+      "price_mzn": 700,
+      "variants": [
+        {
+          "sku": "lipliner--ll80-purple-plum",
+          "name": "LL80 Purple Plum"
+        },
+        {
+          "sku": "lipliner--ll82-dusty-pink",
+          "name": "LL82 Dusty Pink"
+        }
+      ],
+      "page": 43,
+      "note": ""
+    },
+    {
+      "id": "lip-scrub-12g",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Lip Scrub",
+      "size": "12g",
+      "price_mzn": 450,
+      "variants": [
+        {
+          "sku": "lip-scrub-12g--lemon",
+          "name": "Lemon"
+        },
+        {
+          "sku": "lip-scrub-12g--vanilla",
+          "name": "Vanilla"
+        }
+      ],
+      "page": 45,
+      "note": "CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2"
+    },
+    {
+      "id": "flavoured-lip-balm-5-5g",
+      "category": "Lábios",
+      "line": "Makeup",
+      "name": "Flavoured Lip Balm",
+      "size": "5,5g",
+      "price_mzn": 350,
+      "variants": [
+        {
+          "sku": "flavoured-lip-balm-5-5g--lemon",
+          "name": "Lemon"
+        },
+        {
+          "sku": "flavoured-lip-balm-5-5g--vanilla",
+          "name": "Vanilla"
+        }
+      ],
+      "page": 45,
+      "note": "CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2"
+    },
+    {
+      "id": "hand-cuticle-cream-30ml",
+      "category": "Unhas",
+      "line": "Nails",
+      "name": "Hand & Cuticle Cream",
+      "size": "30ml",
+      "price_mzn": 250,
+      "variants": [
+        {
+          "sku": "hand-cuticle-cream-30ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 44,
+      "note": "CONFIRMAR sabores: revista diz '5 sabores' sem os nomear"
+    },
+    {
+      "id": "nail-cuticle-conditioner-11ml",
+      "category": "Unhas",
+      "line": "Nails",
+      "name": "Nail & Cuticle Conditioner",
+      "size": "11ml",
+      "price_mzn": 550,
+      "variants": [
+        {
+          "sku": "nail-cuticle-conditioner-11ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 46,
+      "note": ""
+    },
+    {
+      "id": "colour-stay-nail-polish-11ml",
+      "category": "Unhas",
+      "line": "Nails",
+      "name": "Colour Stay Nail Polish",
+      "size": "11ml",
+      "price_mzn": 450,
+      "variants": [
+        {
+          "sku": "colour-stay-nail-polish-11ml--004",
+          "name": "004"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--005",
+          "name": "005"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--006",
+          "name": "006"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--007",
+          "name": "007"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--008",
+          "name": "008"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--009",
+          "name": "009"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--010",
+          "name": "010"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--011",
+          "name": "011"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--012",
+          "name": "012"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--013",
+          "name": "013"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--014",
+          "name": "014"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--015",
+          "name": "015"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--016",
+          "name": "016"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--017",
+          "name": "017"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--018",
+          "name": "018"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--019",
+          "name": "019"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--021",
+          "name": "021"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--022",
+          "name": "022"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--025",
+          "name": "025"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--026",
+          "name": "026"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--027",
+          "name": "027"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--028",
+          "name": "028"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--029",
+          "name": "029"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--030",
+          "name": "030"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--031",
+          "name": "031"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--032",
+          "name": "032"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--mn301",
+          "name": "MN301"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--mn302",
+          "name": "MN302"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--mn303",
+          "name": "MN303"
+        },
+        {
+          "sku": "colour-stay-nail-polish-11ml--mn304",
+          "name": "MN304"
+        }
+      ],
+      "page": 47,
+      "note": "CONFIRMAR: assumi que a gama Metallic (MN301-304) tem o mesmo preço"
+    },
+    {
+      "id": "top-coat-11ml",
+      "category": "Unhas",
+      "line": "Nails",
+      "name": "Top Coat",
+      "size": "11ml",
+      "price_mzn": 1150,
+      "variants": [
+        {
+          "sku": "top-coat-11ml--001-natural-light-gel-effect",
+          "name": "001 Natural Light Gel Effect"
+        },
+        {
+          "sku": "top-coat-11ml--mn300-plumping-gel-effect",
+          "name": "MN300 Plumping Gel Effect"
+        },
+        {
+          "sku": "top-coat-11ml--019-matte-finish",
+          "name": "019 Matte Finish"
+        }
+      ],
+      "page": 46,
+      "note": ""
+    },
+    {
+      "id": "french-manicure-set-3x11ml",
+      "category": "Unhas",
+      "line": "Nails",
+      "name": "French Manicure Set",
+      "size": "3x11ml",
+      "price_mzn": 1150,
+      "variants": [
+        {
+          "sku": "french-manicure-set-3x11ml--unico",
+          "name": "Único"
+        }
+      ],
+      "page": 47,
+      "note": ""
+    }
+  ]
+}
