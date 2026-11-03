@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { categories, categorySlug, products } from "@/lib/catalog";
 import { ProductCard } from "@/components/ProductCard";
+import { CategoryIcon } from "@/components/CategoryIcon";
 import { TrustStrip } from "@/components/TrustStrip";
 import { STORE_CITY } from "@/lib/store";
 
@@ -44,6 +45,9 @@ export default function Home() {
         <div className="cat-grid">
           {categories.map((c) => (
             <Link key={c} href={`/produtos?categoria=${encodeURIComponent(c)}`} className={`cat-tile art-${categorySlug(c)}`}>
+              <span className="cat-badge">
+                <CategoryIcon category={c} size={26} />
+              </span>
               <span>{c}</span>
               <small>{products.filter((p) => p.category === c).length} produtos</small>
             </Link>
