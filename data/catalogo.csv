@@ -444,8 +444,8 @@ Maquilhagem,Makeup,Mattifying Loose Powder,5g,MLP72,1200,mattifying-loose-powder
 Maquilhagem,Makeup,Mattifying Loose Powder,5g,MLP73,1200,mattifying-loose-powder-5g--mlp73,37,
 Maquilhagem,Makeup,3 in 1 Eyebrow Pencil,,Black (EB10),1000,3-in-1-eyebrow-pencil--black-eb10,38,
 Maquilhagem,Makeup,3 in 1 Eyebrow Pencil,,Brown (EB20),1000,3-in-1-eyebrow-pencil--brown-eb20,38,
-Maquilhagem,Makeup,Long-Wear Liquid Eyeliner,,Black (LE40),600,long-wear-liquid-eyeliner--black-le40,39,CONFIRMAR qual código é preto e qual é castanho
-Maquilhagem,Makeup,Long-Wear Liquid Eyeliner,,Brown (LE41),600,long-wear-liquid-eyeliner--brown-le41,39,CONFIRMAR qual código é preto e qual é castanho
+Maquilhagem,Makeup,Long-Wear Liquid Eyeliner,,Black (LE40),600,long-wear-liquid-eyeliner--black-le40,39,
+Maquilhagem,Makeup,Long-Wear Liquid Eyeliner,,Brown (LE41),600,long-wear-liquid-eyeliner--brown-le41,39,
 Maquilhagem,Makeup,Gel Pencil Eyeliner,,White,950,gel-pencil-eyeliner--white,39,CONFIRMAR cores (lidas da imagem)
 Maquilhagem,Makeup,Gel Pencil Eyeliner,,Dark Blue,950,gel-pencil-eyeliner--dark-blue,39,CONFIRMAR cores (lidas da imagem)
 Maquilhagem,Makeup,Gel Pencil Eyeliner,,Dark Green,950,gel-pencil-eyeliner--dark-green,39,CONFIRMAR cores (lidas da imagem)
@@ -475,11 +475,21 @@ Lábios,Makeup,Lip Gloss,"2,3g",LG52 Holographic Shimmer,600,lip-gloss-2-3g--lg5
 Lábios,Makeup,Lip Gloss,"2,3g",LG53 Gold Shimmer,600,lip-gloss-2-3g--lg53-gold-shimmer,43,
 Lábios,Makeup,Lipliner,,LL80 Purple Plum,700,lipliner--ll80-purple-plum,43,
 Lábios,Makeup,Lipliner,,LL82 Dusty Pink,700,lipliner--ll82-dusty-pink,43,
-Lábios,Makeup,Lip Scrub,12g,Lemon,450,lip-scrub-12g--lemon,45,CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2
-Lábios,Makeup,Lip Scrub,12g,Vanilla,450,lip-scrub-12g--vanilla,45,CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2
-Lábios,Makeup,Flavoured Lip Balm,"5,5g",Lemon,350,flavoured-lip-balm-5-5g--lemon,45,CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2
-Lábios,Makeup,Flavoured Lip Balm,"5,5g",Vanilla,350,flavoured-lip-balm-5-5g--vanilla,45,CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2
-Unhas,Nails,Hand & Cuticle Cream,30ml,Único,250,hand-cuticle-cream-30ml--unico,44,CONFIRMAR sabores: revista diz '5 sabores' sem os nomear
+Lábios,Makeup,Lip Scrub,12g,Vanilla,450,lip-scrub-12g--vanilla,45,
+Lábios,Makeup,Lip Scrub,12g,Lemon,450,lip-scrub-12g--lemon,45,
+Lábios,Makeup,Lip Scrub,12g,Peach,450,lip-scrub-12g--peach,45,
+Lábios,Makeup,Lip Scrub,12g,Watermelon,450,lip-scrub-12g--watermelon,45,
+Lábios,Makeup,Lip Scrub,12g,Berry,450,lip-scrub-12g--berry,45,
+Lábios,Makeup,Flavoured Lip Balm,"5,5g",Vanilla,350,flavoured-lip-balm-5-5g--vanilla,45,
+Lábios,Makeup,Flavoured Lip Balm,"5,5g",Lemon,350,flavoured-lip-balm-5-5g--lemon,45,
+Lábios,Makeup,Flavoured Lip Balm,"5,5g",Peach,350,flavoured-lip-balm-5-5g--peach,45,
+Lábios,Makeup,Flavoured Lip Balm,"5,5g",Watermelon,350,flavoured-lip-balm-5-5g--watermelon,45,
+Lábios,Makeup,Flavoured Lip Balm,"5,5g",Berry,350,flavoured-lip-balm-5-5g--berry,45,
+Unhas,Nails,Hand & Cuticle Cream,30ml,Berry,250,hand-cuticle-cream-30ml--berry,44,
+Unhas,Nails,Hand & Cuticle Cream,30ml,Peach,250,hand-cuticle-cream-30ml--peach,44,
+Unhas,Nails,Hand & Cuticle Cream,30ml,Lemon,250,hand-cuticle-cream-30ml--lemon,44,
+Unhas,Nails,Hand & Cuticle Cream,30ml,Vanilla,250,hand-cuticle-cream-30ml--vanilla,44,
+Unhas,Nails,Hand & Cuticle Cream,30ml,Watermelon,250,hand-cuticle-cream-30ml--watermelon,44,
 Unhas,Nails,Nail & Cuticle Conditioner,11ml,Único,550,nail-cuticle-conditioner-11ml--unico,46,
 Unhas,Nails,Colour Stay Nail Polish,11ml,004,450,colour-stay-nail-polish-11ml--004,47,CONFIRMAR: assumi que a gama Metallic (MN301-304) tem o mesmo preço
 Unhas,Nails,Colour Stay Nail Polish,11ml,005,450,colour-stay-nail-polish-11ml--005,47,CONFIRMAR: assumi que a gama Metallic (MN301-304) tem o mesmo preço

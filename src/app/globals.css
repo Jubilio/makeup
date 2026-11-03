@@ -85,6 +85,8 @@ h2 { font-size: 1.3rem; margin: 1.6em 0 0.6em; }
   color: #fff; text-align: center; padding: 12px;
   background: linear-gradient(145deg, var(--a1, #8c2f57), var(--a2, #3d1528));
 }
+.art { position: relative; overflow: hidden; padding: 0; }
+.art img { width: 100%; height: 100%; object-fit: cover; display: block; background: #fff; }
 .art-large { border-radius: var(--radius); max-width: 420px; width: 100%; }
 .art-line { font-size: 0.8rem; opacity: 0.85; text-transform: uppercase; letter-spacing: 0.08em; }
 .art-mark { font-size: 1.4rem; font-weight: 300; letter-spacing: 0.3em; }

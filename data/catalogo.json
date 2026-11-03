@@ -2652,7 +2652,7 @@
         }
       ],
       "page": 39,
-      "note": "CONFIRMAR qual código é preto e qual é castanho"
+      "note": ""
     },
     {
       "id": "gel-pencil-eyeliner",
@@ -2899,16 +2899,28 @@
       "price_mzn": 450,
       "variants": [
         {
+          "sku": "lip-scrub-12g--vanilla",
+          "name": "Vanilla"
+        },
+        {
           "sku": "lip-scrub-12g--lemon",
           "name": "Lemon"
         },
         {
-          "sku": "lip-scrub-12g--vanilla",
-          "name": "Vanilla"
+          "sku": "lip-scrub-12g--peach",
+          "name": "Peach"
+        },
+        {
+          "sku": "lip-scrub-12g--watermelon",
+          "name": "Watermelon"
+        },
+        {
+          "sku": "lip-scrub-12g--berry",
+          "name": "Berry"
         }
       ],
       "page": 45,
-      "note": "CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2"
+      "note": ""
     },
     {
       "id": "flavoured-lip-balm-5-5g",
@@ -2919,16 +2931,28 @@
       "price_mzn": 350,
       "variants": [
         {
+          "sku": "flavoured-lip-balm-5-5g--vanilla",
+          "name": "Vanilla"
+        },
+        {
           "sku": "flavoured-lip-balm-5-5g--lemon",
           "name": "Lemon"
         },
         {
-          "sku": "flavoured-lip-balm-5-5g--vanilla",
-          "name": "Vanilla"
+          "sku": "flavoured-lip-balm-5-5g--peach",
+          "name": "Peach"
+        },
+        {
+          "sku": "flavoured-lip-balm-5-5g--watermelon",
+          "name": "Watermelon"
+        },
+        {
+          "sku": "flavoured-lip-balm-5-5g--berry",
+          "name": "Berry"
         }
       ],
       "page": 45,
-      "note": "CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2"
+      "note": ""
     },
     {
       "id": "hand-cuticle-cream-30ml",
@@ -2939,12 +2963,28 @@
       "price_mzn": 250,
       "variants": [
         {
-          "sku": "hand-cuticle-cream-30ml--unico",
-          "name": "Único"
+          "sku": "hand-cuticle-cream-30ml--berry",
+          "name": "Berry"
+        },
+        {
+          "sku": "hand-cuticle-cream-30ml--peach",
+          "name": "Peach"
+        },
+        {
+          "sku": "hand-cuticle-cream-30ml--lemon",
+          "name": "Lemon"
+        },
+        {
+          "sku": "hand-cuticle-cream-30ml--vanilla",
+          "name": "Vanilla"
+        },
+        {
+          "sku": "hand-cuticle-cream-30ml--watermelon",
+          "name": "Watermelon"
         }
       ],
       "page": 44,
-      "note": "CONFIRMAR sabores: revista diz '5 sabores' sem os nomear"
+      "note": ""
     },
     {
       "id": "nail-cuticle-conditioner-11ml",

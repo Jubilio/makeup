@@ -47,6 +47,7 @@ CLASSIC_ALL = CLASSIC_FEM + CLASSIC_GN + CLASSIC_MASC
 MIAB = ["Peace", "Hope", "Faith", "Dream"]
 LUX_BATH = ["Kendi", "Lumi", "Komo", "Alila", "Amari"]
 FOUNDATION = ["Porcelain", "Nude", "Sand", "Latte", "Caramel", "Fudge", "Almond", "Cocoa", "Espresso"]
+LIP_FLAVOURS = ["Vanilla", "Lemon", "Peach", "Watermelon", "Berry"]
 NAIL_SHADES = [f"{n:03d}" for n in list(range(4, 20)) + [21, 22] + list(range(25, 33))]
 
 # (categoria, linha, nome, tamanho, preço MT ou None, variantes, página, notas)
@@ -141,8 +142,7 @@ add("Pele", "Skincare", "Solar Shield Sunscreen SPF50", "50ml", 1200, None, 48, 
 add("Maquilhagem", "Makeup", "Flawless Skin Perfecting Foundation", "35ml", 1300, FOUNDATION, 37)
 add("Maquilhagem", "Makeup", "Mattifying Loose Powder", "5g", 1200, ["MLP70", "MLP71", "MLP72", "MLP73"], 37)
 add("Maquilhagem", "Makeup", "3 in 1 Eyebrow Pencil", "", 1000, ["Black (EB10)", "Brown (EB20)"], 38)
-add("Maquilhagem", "Makeup", "Long-Wear Liquid Eyeliner", "", 600, ["Black (LE40)", "Brown (LE41)"], 39,
-    "CONFIRMAR qual código é preto e qual é castanho")
+add("Maquilhagem", "Makeup", "Long-Wear Liquid Eyeliner", "", 600, ["Black (LE40)", "Brown (LE41)"], 39)
 add("Maquilhagem", "Makeup", "Gel Pencil Eyeliner", "", 950, ["White", "Dark Blue", "Dark Green", "Brown"], 39,
     "CONFIRMAR cores (lidas da imagem)")
 add("Maquilhagem", "Makeup", "Fibre Volumizing Mascara", "", 600, None, 40)
@@ -156,13 +156,10 @@ add("Lábios", "Makeup", "Lipstick Removing Oil", "30ml", None, None, 43, "SEM P
 add("Lábios", "Makeup", "Lip Gloss", "2,3g", 600,
     ["LG50 Clear Shine", "LG51 Silver Shimmer", "LG52 Holographic Shimmer", "LG53 Gold Shimmer"], 43)
 add("Lábios", "Makeup", "Lipliner", "", 700, ["LL80 Purple Plum", "LL82 Dusty Pink"], 43)
-add("Lábios", "Makeup", "Lip Scrub", "12g", 450, ["Lemon", "Vanilla"], 45,
-    "CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2")
-add("Lábios", "Makeup", "Flavoured Lip Balm", "5,5g", 350, ["Lemon", "Vanilla"], 45,
-    "CONFIRMAR sabores: revista diz '5 sabores' mas só mostra 2")
+add("Lábios", "Makeup", "Lip Scrub", "12g", 450, LIP_FLAVOURS, 45)
+add("Lábios", "Makeup", "Flavoured Lip Balm", "5,5g", 350, LIP_FLAVOURS, 45)
 # Mãos e unhas
-add("Unhas", "Nails", "Hand & Cuticle Cream", "30ml", 250, None, 44,
-    "CONFIRMAR sabores: revista diz '5 sabores' sem os nomear")
+add("Unhas", "Nails", "Hand & Cuticle Cream", "30ml", 250, ["Berry", "Peach", "Lemon", "Vanilla", "Watermelon"], 44)
 add("Unhas", "Nails", "Nail & Cuticle Conditioner", "11ml", 550, None, 46)
 add("Unhas", "Nails", "Colour Stay Nail Polish", "11ml", 450, NAIL_SHADES + ["MN301", "MN302", "MN303", "MN304"], 47,
     "CONFIRMAR: assumi que a gama Metallic (MN301-304) tem o mesmo preço")
