@@ -5,11 +5,13 @@ import { useState } from "react";
 import { findVariant, formatMT, hasSingleVariant } from "@/lib/catalog";
 import { useCart } from "@/lib/cart";
 import { buildOrderMessage, whatsappUrl, type Customer } from "@/lib/whatsapp";
+import { DELIVERY_INFO, REPLY_TIME } from "@/lib/store";
 
 export default function CarrinhoPage() {
   const { lines, total, hasUnpriced, setQty, remove, clear } = useCart();
   const [c, setC] = useState<Customer>({ name: "", phone: "", address: "", notes: "" });
   const [sent, setSent] = useState(false);
+  const [lastUrl, setLastUrl] = useState("");
 
   if (lines.length === 0 && !sent) {
     return (
@@ -25,16 +27,26 @@ export default function CarrinhoPage() {
   if (sent) {
     return (
       <>
-        <h1>Pedido enviado</h1>
+        <h1>Obrigado{c.name.trim() ? `, ${c.name.trim().split(/\s+/)[0]}` : ""}!</h1>
         <p>
-          Abrimos o WhatsApp com o seu pedido. Vamos responder a confirmar a disponibilidade e a entrega.
+          Abrimos o WhatsApp com o seu pedido. Vamos responder a confirmar a disponibilidade e a entrega
+          {REPLY_TIME ? `, normalmente em ${REPLY_TIME}` : ""}. Ainda não pagou nada.
         </p>
+        {lastUrl && (
+          <p>
+            O WhatsApp não abriu?{" "}
+            <a href={lastUrl} target="_blank" rel="noopener">
+              Toque aqui para tentar de novo
+            </a>
+            .
+          </p>
+        )}
         <div className="row-btns">
           <Link href="/produtos" className="btn primary" onClick={() => clear()}>
             Esvaziar carrinho e continuar
           </Link>
           <button className="btn" onClick={() => setSent(false)}>
-            O WhatsApp não abriu? Voltar ao carrinho
+            Voltar ao carrinho
           </button>
         </div>
       </>
@@ -85,7 +97,9 @@ export default function CarrinhoPage() {
             e.preventDefault();
             if (!canSend) return;
             const msg = buildOrderMessage(lines, c, total, hasUnpriced);
-            window.open(whatsappUrl(msg), "_blank", "noopener");
+            const url = whatsappUrl(msg);
+            setLastUrl(url);
+            window.open(url, "_blank", "noopener");
             setSent(true);
           }}
         >
@@ -93,26 +107,31 @@ export default function CarrinhoPage() {
             Total: <strong>{formatMT(total)}</strong>
             {hasUnpriced && <small> + itens com preço a confirmar</small>}
           </p>
+          <p className="delivery">{DELIVERY_INFO}</p>
+          <p className="step">Último passo: diga-nos quem é e onde entregar.</p>
           <label className="field">
             <span>Nome *</span>
             <input required value={c.name} onChange={(e) => setC({ ...c, name: e.target.value })} autoComplete="name" />
           </label>
           <label className="field">
-            <span>Telefone</span>
+            <span>Telefone (opcional, se for diferente do WhatsApp)</span>
             <input value={c.phone} onChange={(e) => setC({ ...c, phone: e.target.value })} autoComplete="tel" inputMode="tel" />
           </label>
           <label className="field">
-            <span>Local de entrega ou levantamento</span>
+            <span>Local de entrega ou levantamento (opcional)</span>
             <input value={c.address} onChange={(e) => setC({ ...c, address: e.target.value })} placeholder="Bairro, cidade" />
           </label>
           <label className="field">
-            <span>Observações</span>
+            <span>Observações (opcional)</span>
             <textarea rows={2} value={c.notes} onChange={(e) => setC({ ...c, notes: e.target.value })} />
           </label>
           <button className="btn primary whatsapp" type="submit" disabled={!canSend}>
             Enviar pedido por WhatsApp
           </button>
-          <p className="hint">O pagamento é combinado consigo depois da confirmação.</p>
+          <p className="hint">
+            Ainda não paga nada. Confirmamos a disponibilidade e a entrega, e só depois combinamos o pagamento
+            consigo.
+          </p>
         </form>
       </div>
     </>

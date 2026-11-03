@@ -12,11 +12,16 @@ export function AddToCart({ product }: { product: Product }) {
   const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
   const [stock, setStock] = useState<Record<string, number>>({});
+  const [low, setLow] = useState<string[]>([]);
 
   useEffect(() => {
     fetch(`/api/stock?produto=${encodeURIComponent(product.id)}`)
       .then((r) => (r.ok ? r.json() : {}))
-      .then((d) => setStock(d as Record<string, number>))
+      .then((d) => {
+        const { _low, ...rest } = d as Record<string, number> & { _low?: string[] };
+        setStock(rest);
+        setLow(Array.isArray(_low) ? _low : []);
+      })
       .catch(() => {});
   }, [product.id]);
 
@@ -62,6 +67,9 @@ export function AddToCart({ product }: { product: Product }) {
       >
         {sku && soldOut(sku) ? "Esgotado" : "Adicionar ao carrinho"}
       </button>
+      {sku && low.includes(sku) && !added && (
+        <p className="notice low">Poucas unidades disponíveis.</p>
+      )}
       {added && (
         <p className="notice ok" role="status">
           Adicionado. <Link href="/carrinho">Ver carrinho</Link>
