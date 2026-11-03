@@ -9,8 +9,8 @@
     {
       "binding": "DB",
       "database_name": "aneka-shop",
-      // Substituir pelo id real depois de criar a base de dados (ver docs/NEXT_STEPS.md)
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      // Base de dados D1 "aneka-shop" criada na conta Cloudflare
+      "database_id": "0bc1e59e-7a81-4151-b2c8-fb0767d17a83",
       "migrations_dir": "migrations"
     }
   ],
