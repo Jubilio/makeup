@@ -15,6 +15,15 @@ const FEATURED = [
   "multi-effect-moisturizer-45ml",
 ];
 
+const STEPS = [
+  { title: "Escolha", text: "Escolha o produto e a fragrância, cor ou tom." },
+  { title: "Preencha", text: "Abra o carrinho e preencha o seu nome e onde quer receber." },
+  {
+    title: "Envie pelo WhatsApp",
+    text: "Carregue em “Enviar pedido por WhatsApp”. Respondemos a confirmar e só depois combinamos o pagamento.",
+  },
+];
+
 export default function Home() {
   const featured = FEATURED.map((id) => products.find((p) => p.id === id)).filter(Boolean) as typeof products;
   return (
@@ -53,10 +62,14 @@ export default function Home() {
 
       <section className="how">
         <h2>Como encomendar</h2>
-        <ol>
-          <li>Escolha o produto e a fragrância, cor ou tom.</li>
-          <li>Abra o carrinho e preencha o seu nome e onde quer receber.</li>
-          <li>Carregue em “Enviar pedido por WhatsApp”. Respondemos a confirmar e só depois combinamos o pagamento.</li>
+        <ol className="steps">
+          {STEPS.map((s, i) => (
+            <li key={s.title} className="step-card">
+              <span className="step-num" aria-hidden="true">{i + 1}</span>
+              <h3>{s.title}</h3>
+              <p>{s.text}</p>
+            </li>
+          ))}
         </ol>
       </section>
     </>
