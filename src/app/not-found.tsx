@@ -4,9 +4,10 @@ export default function NotFound() {
   return (
     <>
       <h1>Página não encontrada</h1>
-      <p>
-        <Link href="/produtos">Ver todos os produtos</Link>
-      </p>
+      <p>O endereço pode estar errado ou o produto já não existe.</p>
+      <Link href="/produtos" className="btn primary">
+        Ver todos os produtos
+      </Link>
     </>
   );
 }
