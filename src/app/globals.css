@@ -55,12 +55,38 @@ p { margin: 0 0 16px; }
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
 .main { min-height: 70vh; padding-bottom: 48px; }
 
-.site-header { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+/* Cabeçalho: superfície translúcida, logótipo, separador ativo com fundo tingido. */
+.site-header {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  -webkit-backdrop-filter: saturate(1.4) blur(12px); backdrop-filter: saturate(1.4) blur(12px);
+  border-bottom: 1px solid var(--line);
+}
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
-.brand { display: inline-flex; white-space: nowrap; align-items: center; min-height: 44px; font-weight: 700; font-size: 1.15rem; color: var(--text); text-decoration: none; letter-spacing: 0.02em; }
+.brand { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: var(--text); text-decoration: none; white-space: nowrap; }
+.brand-logo { width: 32px; height: 32px; border-radius: 8px; display: block; }
+.brand-name { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 1.25rem; letter-spacing: 0.02em; }
 .nav { display: flex; gap: 4px; align-items: center; }
-.nav a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 8px; color: var(--text); text-decoration: none; white-space: nowrap; }
+.nav-link {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 999px;
+  color: var(--text); text-decoration: none; white-space: nowrap; transition: background-color 0.15s;
+}
+.nav-link:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.nav-link.on { background: color-mix(in srgb, var(--accent) 12%, var(--surface)); color: var(--accent); font-weight: 700; }
+.nav-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .badge { background: var(--accent); color: var(--accent-ink); border-radius: 999px; font-size: 0.75rem; padding: 0 8px; font-weight: 700; line-height: 1.6; }
+@media (max-width: 400px) {
+  .nav-link { padding: 0 12px; }
+  .brand-name { font-size: 1.15rem; }
+  .brand { gap: 8px; }
+  .cart-link { position: relative; min-width: 48px; justify-content: center; }
+  .cart-link .badge { position: absolute; top: 4px; right: 0; }
+  .cart-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+@media (max-width: 340px) {
+  .nav-link { padding: 0 8px; }
+  .brand-name { font-size: 1.05rem; }
+}
 
 .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; padding: 24px 0; }
 .site-footer p { margin: 0; }
@@ -173,8 +199,19 @@ input, select, textarea {
   display: flex; flex-direction: column; gap: 16px;
 }
 .total { font-size: 1.15rem; margin: 0; }
-.how ol { padding-left: 24px; }
-.how li + li { margin-top: 8px; }
+/* Como encomendar: três cartões numerados */
+.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.step-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.step-num {
+  display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; margin-bottom: 8px;
+  border-radius: 999px; background: color-mix(in srgb, var(--accent) 12%, var(--surface)); color: var(--accent);
+  font-weight: 700; font-size: 1.1rem;
+}
+.step-card h3 { margin: 0; font-size: 1.05rem; }
+.step-card p { margin: 0; color: var(--muted); }
 
 /* Confiança e decisão */
 .trust { list-style: none; padding: 0; margin: 24px 0 0; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 0.9rem; color: var(--ok); }
