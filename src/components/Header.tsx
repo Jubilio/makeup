@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCart } from "@/lib/cart";
 
-export const STORE_NAME = process.env.NEXT_PUBLIC_STORE_NAME || "Loja INUKA";
+export const STORE_NAME = process.env.NEXT_PUBLIC_STORE_NAME || "Aneka Shop";
 
 export function Header() {
   const { count } = useCart();
