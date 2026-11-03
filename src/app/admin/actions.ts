@@ -2,15 +2,31 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { checkPassword, createSession, destroySession, isAdmin } from "@/lib/auth";
+import {
+  checkPassword,
+  clearLoginFailures,
+  createSession,
+  destroySession,
+  isAdmin,
+  loginLockedMinutes,
+  recordLoginFailure,
+} from "@/lib/auth";
 import { findVariant } from "@/lib/catalog";
 import { getDB } from "@/lib/db";
 
 export type ActionState = { ok: boolean; message: string } | null;
 
 export async function login(_prev: ActionState, form: FormData): Promise<ActionState> {
-  const password = String(form.get("password") || "");
-  if (!(await checkPassword(password))) return { ok: false, message: "Senha incorreta." };
+  const locked = await loginLockedMinutes();
+  if (locked > 0) {
+    return { ok: false, message: `Demasiadas tentativas. Tente de novo daqui a ${locked} min.` };
+  }
+  const password = String(form.get("password") || "").slice(0, 200);
+  if (!(await checkPassword(password))) {
+    await recordLoginFailure();
+    return { ok: false, message: "Senha incorreta." };
+  }
+  await clearLoginFailures();
   await createSession();
   redirect("/admin");
 }
