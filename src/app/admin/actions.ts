@@ -69,7 +69,15 @@ export async function recordMovement(_prev: ActionState, form: FormData): Promis
     delta = qty - current;
   }
 
-  const unitPrice = kind === "venda" ? found.product.price_mzn : null;
+  let unitPrice: number | null = null;
+  if (kind === "venda") {
+    // Preço por unidade: o do catálogo, a não ser que tenha escrito outro (desconto, preço combinado).
+    const raw = String(form.get("price") ?? "").trim();
+    unitPrice = raw === "" ? found.product.price_mzn : Math.round(Number(raw));
+    if (unitPrice != null && (!Number.isFinite(unitPrice) || unitPrice < 0 || unitPrice > 1_000_000)) {
+      return { ok: false, message: "Preço inválido." };
+    }
+  }
   await db.batch([
     db
       .prepare(
@@ -105,4 +113,32 @@ export async function setMinQty(_prev: ActionState, form: FormData): Promise<Act
     .run();
   revalidatePath("/admin");
   return { ok: true, message: "Alerta de stock atualizado." };
+}
+
+/** Anula uma venda: deixa de contar nos totais e as unidades voltam ao stock. Fica no histórico. */
+export async function cancelSale(_prev: ActionState, form: FormData): Promise<ActionState> {
+  if (!(await isAdmin())) return { ok: false, message: "Sessão expirada. Entre de novo." };
+  const id = Math.trunc(Number(form.get("id")));
+  if (!Number.isFinite(id) || id <= 0) return { ok: false, message: "Venda desconhecida." };
+
+  const db = await getDB();
+  const sale = await db
+    .prepare("SELECT sku, qty FROM movements WHERE id = ? AND kind = 'venda' AND cancelled_at IS NULL")
+    .bind(id)
+    .first<{ sku: string; qty: number }>();
+  if (!sale) return { ok: false, message: "Esta venda já foi anulada ou não existe." };
+
+  await db.batch([
+    db.prepare("UPDATE movements SET cancelled_at = datetime('now') WHERE id = ? AND cancelled_at IS NULL").bind(id),
+    db
+      .prepare(
+        `INSERT INTO stock (sku, qty, updated_at) VALUES (?, ?, datetime('now'))
+         ON CONFLICT(sku) DO UPDATE SET qty = stock.qty + excluded.qty, updated_at = excluded.updated_at`,
+      )
+      .bind(sale.sku, sale.qty),
+  ]);
+
+  revalidatePath("/admin");
+  revalidatePath("/admin/historico");
+  return { ok: true, message: `Venda anulada. ${sale.qty} un. voltaram ao stock.` };
 }
