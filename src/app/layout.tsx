@@ -19,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="wrap main">{children}</main>
           <footer className="site-footer">
             <div className="wrap">
+              <span className="footer-name" aria-hidden="true">{STORE_NAME}</span>
               <p>
                 {STORE_NAME} · Produtos INUKA · Preços em meticais (MT), catálogo 2026.{" "}
                 <Link href="/produtos">Ver todos os produtos</Link>

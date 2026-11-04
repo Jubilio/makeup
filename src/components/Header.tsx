@@ -39,7 +39,7 @@ export function Header() {
           >
             <BagIcon />
             <span className="cart-label">Carrinho</span>
-            {count > 0 && <span className="badge">{count}</span>}
+            {count > 0 && <span key={count} className="badge">{count}</span>}
           </Link>
         </nav>
       </div>

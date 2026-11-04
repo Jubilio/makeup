@@ -8,7 +8,6 @@ export function ProductCard({ product }: { product: Product }) {
     <Link href={`/produto/${product.id}`} className="card">
       <ProductArt product={product} />
       <div className="card-body">
-        <span className="card-cat">{product.category}</span>
         <h3 className="card-title">{product.name}</h3>
         <span className="card-meta">
           {product.size}

@@ -36,9 +36,8 @@ export default async function ProdutoPage({ params }: { params: Promise<{ id: st
       <div className="detail">
         <ProductArt product={product} large />
         <div>
-          <span className="card-cat">Linha {product.line}</span>
           <h1>{product.name}</h1>
-          {product.size && <p className="size">{product.size}</p>}
+          <p className="size">Linha {product.line}{product.size ? ` · ${product.size}` : ""}</p>
           <p className="price-big">{isComingSoon(product) ? "Brevemente" : formatMT(product.price_mzn)}</p>
           {pack && product.price_mzn != null && !isComingSoon(product) && (
             <p className="per-unit">

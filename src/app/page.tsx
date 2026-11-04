@@ -46,7 +46,7 @@ export default function Home() {
           {categories.map((c) => (
             <Link key={c} href={`/produtos?categoria=${encodeURIComponent(c)}`} className={`cat-tile art-${categorySlug(c)}`}>
               <span className="cat-badge">
-                <CategoryIcon category={c} size={26} />
+                <CategoryIcon category={c} size={32} />
               </span>
               <span>{c}</span>
               <small>{products.filter((p) => p.category === c).length} produtos</small>
