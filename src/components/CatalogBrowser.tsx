@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { categories, products } from "@/lib/catalog";
 import { ProductCard } from "./ProductCard";
+import { CategoryIcon } from "./CategoryIcon";
 
 function norm(s: string) {
   return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -50,6 +51,7 @@ export function CatalogBrowser({ initialCategory = "" }: { initialCategory?: str
         </button>
         {categories.map((c) => (
           <button key={c} className={cat === c ? "chip on" : "chip"} onClick={() => setCat(c)}>
+            <CategoryIcon category={c} size={18} />
             {c}
           </button>
         ))}
