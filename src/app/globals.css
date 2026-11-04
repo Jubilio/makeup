@@ -212,7 +212,9 @@ input, select, textarea {
 .variants ul { columns: 2; padding-left: 16px; font-size: 0.9rem; }
 
 .cart-layout { display: grid; grid-template-columns: 1fr 340px; gap: 24px; align-items: start; }
-@media (max-width: 800px) { .cart-layout { grid-template-columns: 1fr; } }
+@media (max-width: 800px) { .cart-layout { grid-template-columns: minmax(0, 1fr); } }
+.cart-layout > * { min-width: 0; }
+.cart-line > div:first-child { min-width: 0; overflow-wrap: anywhere; }
 .cart-lines { list-style: none; padding: 0; margin: 0; }
 .cart-line {
   display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line);
