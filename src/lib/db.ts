@@ -26,6 +26,8 @@ export type MovementRow = {
   unit_price: number | null;
   note: string | null;
   created_at: string;
+  /** Preenchido quando uma venda é anulada (migração 0003). */
+  cancelled_at: string | null;
 };
 
 export async function getStockMap(): Promise<Map<string, StockRow>> {

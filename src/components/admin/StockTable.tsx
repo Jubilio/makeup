@@ -2,7 +2,6 @@
 
 import { useActionState, useMemo, useState } from "react";
 import { recordMovement, setMinQty, type ActionState } from "@/app/admin/actions";
-import { formatMT } from "@/lib/catalog";
 
 export type StockItem = {
   sku: string;
@@ -78,6 +77,12 @@ export function StockTable({ items }: { items: StockItem[] }) {
   );
 }
 
+const KIND_HINT: Record<string, (qty: number) => string> = {
+  entrada: (q) => `Chegou mercadoria: soma ao stock. Tem ${q} agora.`,
+  venda: (q) => `Cliente confirmou: sai do stock e conta nas vendas. Tem ${q} agora.`,
+  acerto: (q) => `Escreva quantas contou na prateleira: substitui o ${q} atual.`,
+};
+
 function RowForms({ item }: { item: StockItem }) {
   const [state, action, pending] = useActionState<ActionState, FormData>(recordMovement, null);
   const [minState, minAction, minPending] = useActionState<ActionState, FormData>(setMinQty, null);
@@ -103,6 +108,21 @@ function RowForms({ item }: { item: StockItem }) {
           <span>{kind === "acerto" ? "Quantidade contada" : "Quantidade"}</span>
           <input type="number" name="qty" min={kind === "acerto" ? 0 : 1} max={10000} defaultValue={kind === "acerto" ? item.qty : 1} key={kind} required />
         </label>
+        {kind === "venda" && (
+          <label className="field">
+            <span>Preço por unidade (MT)</span>
+            <input
+              type="number"
+              name="price"
+              min={0}
+              max={1000000}
+              inputMode="numeric"
+              defaultValue={item.price ?? ""}
+              placeholder={item.price == null ? "Sem preço no catálogo" : undefined}
+            />
+          </label>
+        )}
+        <p className="hint kind-hint">{KIND_HINT[kind](item.qty)}</p>
         <label className="field">
           <span>Nota (opcional)</span>
           <input name="note" maxLength={200} placeholder={kind === "venda" ? "Cliente, pedido…" : "Fornecedor, motivo…"} />
@@ -110,13 +130,12 @@ function RowForms({ item }: { item: StockItem }) {
         <button className="btn primary" disabled={pending}>
           {pending ? "A guardar…" : "Guardar"}
         </button>
-        {kind === "venda" && item.price != null && <p className="hint">Preço de venda: {formatMT(item.price)} / un.</p>}
         {state && <p className={state.ok ? "notice ok" : "notice err"} role="status">{state.message}</p>}
       </form>
       <form action={minAction} className="min-form">
         <input type="hidden" name="sku" value={item.sku} />
         <label className="field">
-          <span>Avisar quando tiver</span>
+          <span>Avisar quando tiver (ou menos)</span>
           <input type="number" name="min_qty" min={0} max={1000} defaultValue={item.min} required />
         </label>
         <button className="btn" disabled={minPending}>Guardar alerta</button>
