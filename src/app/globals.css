@@ -17,7 +17,12 @@
   --err: #b23125;
   --wa: #157a43;
   --wa-ink: #ffffff;
+  --surface-2: #f3ece9;
   --radius: 12px;
+  /* Movimento: curva de saída rápida, durações curtas (loja: polido, discreto). */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --dur-fast: 160ms;
+  --dur: 240ms;
   color-scheme: light;
 }
 
@@ -35,6 +40,7 @@
     --err: #ff8f80;
     --wa: #3fcf7f;
     --wa-ink: #0f1f16;
+    --surface-2: #2a2230;
     color-scheme: dark;
   }
 }
@@ -48,20 +54,27 @@ body {
 }
 a { color: var(--accent); }
 h1, h2, h3, strong, b, th { font-weight: 700; }
-h1 { font-size: 2rem; line-height: 1.2; margin: 16px 0 16px; }
-h2 { font-size: 1.3rem; line-height: 1.3; margin: 40px 0 16px; }
+h1, h2 { text-wrap: balance; }
+h1 { font-size: clamp(2rem, 1.2rem + 3.2vw, 3.5rem); line-height: 1.05; letter-spacing: -0.02em; margin: 16px 0 16px; }
+h2 { font-size: clamp(1.4rem, 1.1rem + 1.2vw, 2rem); line-height: 1.15; letter-spacing: -0.01em; margin: 48px 0 24px; }
+@media (min-width: 900px) { .main > section + section, .main section h2 { margin-top: 96px; } }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Entrada: opacidade + subida curta + desfoque leve. */
+@keyframes enter { from { opacity: 0; transform: translateY(8px); filter: blur(4px); } }
+@keyframes pop { from { opacity: 0; transform: scale(0.9); } }
+.notice[role="status"] { animation: enter var(--dur) var(--ease-out) both; }
+.badge { animation: pop var(--dur) var(--ease-out) both; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 1ms !important; animation-duration: 1ms !important; }
+  .card, .cat-tile { transform: none !important; }
+}
 p { margin: 0 0 16px; }
 
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
 .main { min-height: 70vh; padding-bottom: 48px; }
 
-/* Cabeçalho: superfície translúcida, logótipo, separador ativo com fundo tingido. */
-.site-header {
-  position: sticky; top: 0; z-index: 10;
-  background: color-mix(in srgb, var(--surface) 88%, transparent);
-  -webkit-backdrop-filter: saturate(1.4) blur(12px); backdrop-filter: saturate(1.4) blur(12px);
-  border-bottom: 1px solid var(--line);
-}
+/* Cabeçalho: barra simples na cor da superfície, separada do fundo pelo tom (sem vidro nem linha). */
+.site-header { position: sticky; top: 0; z-index: 10; background: var(--surface); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: var(--text); text-decoration: none; white-space: nowrap; }
 .brand-logo { width: 32px; height: 32px; border-radius: 8px; display: block; }
@@ -69,7 +82,7 @@ p { margin: 0 0 16px; }
 .nav { display: flex; gap: 4px; align-items: center; }
 .nav-link {
   display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 999px;
-  color: var(--text); text-decoration: none; white-space: nowrap; transition: background-color 0.15s;
+  color: var(--text); text-decoration: none; white-space: nowrap; transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
 }
 .nav-link:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
 .nav-link.on { background: color-mix(in srgb, var(--accent) 12%, var(--surface)); color: var(--accent); font-weight: 700; }
@@ -88,12 +101,17 @@ p { margin: 0 0 16px; }
   .brand-name { font-size: 1.05rem; }
 }
 
-.site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; padding: 24px 0; }
+/* Rodapé: o nome da loja volta em grande. */
+.site-footer { background: var(--surface-2); color: var(--text); font-size: 0.9rem; padding: 48px 0 32px; }
 .site-footer p { margin: 0; }
+.footer-name {
+  display: block; margin-bottom: 16px; font-family: Georgia, "Times New Roman", serif; font-weight: 700;
+  font-size: clamp(2.5rem, 1rem + 8vw, 7rem); line-height: 1; letter-spacing: -0.02em; color: var(--accent);
+}
 
-.hero { padding: 40px 0 8px; max-width: 640px; }
-.hero h1 { font-size: 2rem; margin-bottom: 8px; }
-.hero p { color: var(--muted); font-size: 1.05rem; margin-bottom: 24px; }
+.hero { padding: 40px 0 8px; max-width: 760px; }
+.hero h1 { margin-bottom: 16px; }
+.hero p { color: var(--text); font-size: 1.125rem; margin-bottom: 24px; max-width: 34em; }
 
 /* Botões: 48px de altura. Um só .primary por ecrã; o resto é secundário. */
 .btn {
@@ -101,7 +119,10 @@ p { margin: 0 0 16px; }
   min-height: 48px; padding: 12px 24px; border: 0; border-radius: 999px;
   background: color-mix(in srgb, var(--accent) 8%, var(--surface)); color: var(--accent);
   font: inherit; font-weight: 700; line-height: 1.5; cursor: pointer; text-decoration: none; text-align: center;
+  transition: transform var(--dur-fast) var(--ease-out), filter var(--dur-fast) var(--ease-out);
 }
+.btn:not(:disabled):hover { filter: brightness(0.94); }
+.btn:not(:disabled):active { transform: scale(0.97); }
 .btn.primary { background: var(--accent); color: var(--accent-ink); }
 .btn.whatsapp { background: var(--wa); color: var(--wa-ink); width: 100%; }
 .btn:disabled { cursor: not-allowed; background: var(--line); color: var(--muted); }
@@ -115,12 +136,13 @@ p { margin: 0 0 16px; }
 @media (max-width: 480px) { .grid { grid-template-columns: repeat(2, 1fr); gap: 8px; } }
 
 .card {
-  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
-  text-decoration: none; color: var(--text); display: flex; flex-direction: column; transition: transform 0.15s;
+  background: var(--surface); border-radius: var(--radius); overflow: hidden;
+  text-decoration: none; color: var(--text); display: flex; flex-direction: column; transition: transform var(--dur) var(--ease-out);
 }
-.card:hover { transform: translateY(-2px); }
+@media (hover: hover) { .card:hover, .cat-tile:hover { transform: translateY(-4px); } }
+.card:active { transform: scale(0.98); }
 .card-body { padding: 12px 16px 16px; display: flex; flex-direction: column; gap: 4px; }
-.card-cat { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+
 .card-title { font-size: 1rem; margin: 0; line-height: 1.3; }
 .card-meta { font-size: 0.875rem; color: var(--muted); }
 .card-price { font-weight: 700; margin-top: 4px; }
@@ -146,15 +168,12 @@ p { margin: 0 0 16px; }
 .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
 .cat-tile {
   border-radius: var(--radius); color: #fff; text-decoration: none; padding: 16px; display: flex; flex-direction: column; gap: 4px;
-  background: linear-gradient(145deg, var(--a1), var(--a2)); font-weight: 700;
+  background: var(--a1); font-weight: 700; transition: transform var(--dur) var(--ease-out);
 }
+.cat-tile:active { transform: scale(0.98); }
 .cat-tile small { font-weight: 400; font-size: 0.875rem; }
-/* Ícone da categoria: traço dourado num círculo de vidro, como o logótipo. */
-.cat-badge {
-  display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; margin-bottom: 8px;
-  border-radius: 999px; color: #f6dc9f;
-  background: rgba(255, 255, 255, 0.12); box-shadow: inset 0 0 0 1px rgba(241, 207, 134, 0.45);
-}
+/* Ícone da categoria: traço dourado, como o "A" do logótipo, sem moldura. */
+.cat-badge { display: inline-flex; margin-bottom: 16px; color: #f6dc9f; }
 .chip { gap: 8px; }
 .chip .cat-icon { flex: none; color: var(--accent); }
 .chip.on .cat-icon { color: currentColor; }
@@ -167,7 +186,7 @@ input, select, textarea {
 }
 .chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px; }
 .chip {
-  display: inline-flex; align-items: center; min-height: 44px;
+  display: inline-flex; align-items: center; min-height: 44px; transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
   border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px;
   padding: 8px 16px; font: inherit; font-size: 0.9rem; white-space: nowrap; cursor: pointer;
 }
@@ -211,7 +230,7 @@ input, select, textarea {
 /* Como encomendar: três cartões numerados */
 .steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
 .step-card {
-  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px;
+  background: var(--surface); border-radius: var(--radius); padding: 24px;
   display: flex; flex-direction: column; gap: 8px;
 }
 .step-num {
@@ -220,7 +239,7 @@ input, select, textarea {
   font-weight: 700; font-size: 1.1rem;
 }
 .step-card h3 { margin: 0; font-size: 1.05rem; }
-.step-card p { margin: 0; color: var(--muted); }
+.step-card p { margin: 0; }
 
 /* Confiança e decisão */
 .trust { list-style: none; padding: 0; margin: 24px 0 0; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 0.9rem; color: var(--ok); }
