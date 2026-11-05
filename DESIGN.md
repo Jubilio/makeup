@@ -8,25 +8,26 @@ adaptada a esta loja.
 ## 1. Tema e ambiente
 
 Loja de perfumes e cuidados INUKA em Maputo. Quente, cuidada, de confiança, nunca "barata".
-O vinho da marca e um toque de dourado (o "A" do logótipo) dão o tom de perfumaria; o resto é calmo
-para que as fotos dos produtos sejam o que se vê primeiro. Modo claro e escuro.
+O azul claro da marca (o mesmo do assistente Typebot) e o azul-marinho do texto dão um tom limpo e de
+confiança; o resto é calmo para que as fotos dos produtos sejam o que se vê primeiro. Modo claro e escuro.
 
 ## 2. Cores e papéis
 
 | Token | Claro | Escuro | Papel |
 |---|---|---|---|
-| `--bg` | #fbf8f6 | #17131a | Fundo da página |
-| `--surface` | #ffffff | #211b24 | Cartões, cabeçalho, formulários |
-| `--surface-2` | #f3ece9 | #2a2230 | Rodapé e zonas em segundo plano |
-| `--text` | #2a2226 | #f1eaee | Todo o texto corrido |
-| `--muted` | #6d6168 | #b3a6ad | Só notas secundárias (tamanho, quantidade) |
-| `--accent` | #8c2f57 | #e07aa6 | Ação principal, links, página atual |
+| `--bg` | #f5f9fc | #0f1526 | Fundo da página |
+| `--surface` | #ffffff | #172036 | Cartões, cabeçalho, formulários |
+| `--surface-2` | #e6f1f9 | #1d2840 | Rodapé e zonas em segundo plano |
+| `--text` | #1a2249 | #eaf2fa | Todo o texto corrido |
+| `--muted` | #52607a | #a7b6c9 | Só notas secundárias (tamanho, quantidade) |
+| `--accent` | #2f6e95 | #8cc8ee | Ação principal, links, página atual |
 | `--wa` / `--wa-ink` | #157a43 / branco | #3fcf7f / #0f1f16 | Só o botão do WhatsApp |
 | `--ok` `--warn` `--err` | | | Estados |
-| Dourado | #f6dc9f | | Ícones sobre as cores das categorias |
+| Azul muito claro | #e0edff | | Ícones sobre as cores das categorias |
 
 Um fundo, uma tinta, um destaque. Superfícies separam-se por um passo de tom, não por linhas nem
-sombras. As cores de categoria (`.art-*`) são campos planos, escuros o suficiente para texto branco.
+sombras. As cores de categoria (`.art-*`) são campos planos em tons de azul e azul-petróleo, escuros o
+suficiente para texto branco (5.5:1 ou mais).
 
 ## 3. Tipografia
 
@@ -44,10 +45,10 @@ sombras. As cores de categoria (`.art-*`) são campos planos, escuros o suficien
 - **Menu:** barra simples na cor da superfície, logótipo + nome, dois links em pílula; a página atual
   fica tingida. No telemóvel o carrinho é só o ícone com o número.
 - **Cartões de produto:** foto quadrada, nome, tamanho e opções, preço a negrito. Sem borda.
-- **Cartões de categoria:** campo de cor plano, ícone dourado de traço fino, nome e contagem.
+- **Cartões de categoria:** campo de cor plano, ícone azul muito claro de traço fino, nome e contagem.
 - **Filtros (chips):** pílula com borda (é um controlo), ícone na cor de destaque.
 - **Etiquetas:** só fundo tingido, sem borda.
-- **Rodapé:** o nome da loja volta em grande, em vinho, sobre `--surface-2`.
+- **Rodapé:** o nome da loja volta em grande, em azul, sobre `--surface-2`.
 
 ## 5. Layout
 

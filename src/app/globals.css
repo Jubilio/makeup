@@ -5,19 +5,19 @@
   sem texto em gradiente e sem etiquetas com borda.
 */
 :root {
-  --bg: #fbf8f6;
+  --bg: #f5f9fc;
   --surface: #ffffff;
-  --text: #2a2226;
-  --muted: #6d6168;
-  --line: #e8dfe2;
-  --accent: #8c2f57;
+  --text: #1a2249;
+  --muted: #52607a;
+  --line: #d6e4ef;
+  --accent: #2f6e95;
   --accent-ink: #ffffff;
   --ok: #1f7a4a;
   --warn: #9a5b00;
   --err: #b23125;
   --wa: #157a43;
   --wa-ink: #ffffff;
-  --surface-2: #f3ece9;
+  --surface-2: #e6f1f9;
   --radius: 12px;
   /* Movimento: curva de saída rápida, durações curtas (loja: polido, discreto). */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
@@ -28,19 +28,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #17131a;
-    --surface: #211b24;
-    --text: #f1eaee;
-    --muted: #b3a6ad;
-    --line: #3a3040;
-    --accent: #e07aa6;
-    --accent-ink: #1b1218;
+    --bg: #0f1526;
+    --surface: #172036;
+    --text: #eaf2fa;
+    --muted: #a7b6c9;
+    --line: #2c3a55;
+    --accent: #8cc8ee;
+    --accent-ink: #0d1430;
     --ok: #6fd39c;
     --warn: #f0b45a;
     --err: #ff8f80;
     --wa: #3fcf7f;
     --wa-ink: #0f1f16;
-    --surface-2: #2a2230;
+    --surface-2: #1d2840;
     color-scheme: dark;
   }
 }
@@ -153,17 +153,17 @@ p { margin: 0 0 16px; }
 .art-large { border-radius: var(--radius); max-width: 420px; width: 100%; }
 
 /* Cores das categorias: o primeiro tom fica por trás do texto branco (4.5:1 ou mais). */
-.art-perfumes { --a1: #8c2f57; --a2: #3d1528; }
-.art-corpo { --a1: #a5566b; --a2: #6b2d41; }
-.art-pele { --a1: #9c6545; --a2: #6e4330; }
-.art-maquilhagem { --a1: #a03a3a; --a2: #4a1515; }
-.art-labios { --a1: #c2416b; --a2: #5e1a33; }
-.art-unhas { --a1: #7b4a9e; --a2: #352048; }
-.art-cabelo { --a1: #5d7a3a; --a2: #2b3a19; }
-.art-pes { --a1: #357878; --a2: #1b3f3f; }
-.art-bem-estar { --a1: #5b6bb5; --a2: #252d57; }
-.art-casa { --a1: #85683a; --a2: #46371c; }
-.art-crianca { --a1: #a9506a; --a2: #6e2a44; }
+.art-perfumes { --a1: #2f6e95; --a2: #1a2249; }
+.art-corpo { --a1: #27648c; --a2: #16304d; }
+.art-pele { --a1: #1e6a7a; --a2: #123d47; }
+.art-maquilhagem { --a1: #3b57a0; --a2: #1c2a52; }
+.art-labios { --a1: #4a5aa8; --a2: #232b57; }
+.art-unhas { --a1: #2d4f9e; --a2: #18284f; }
+.art-cabelo { --a1: #1d6f86; --a2: #103e4b; }
+.art-pes { --a1: #2a6a8f; --a2: #173a50; }
+.art-bem-estar { --a1: #1f5f8b; --a2: #12324a; }
+.art-casa { --a1: #355c7d; --a2: #1c3144; }
+.art-crianca { --a1: #1a4f72; --a2: #0f2c40; }
 
 .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
 .cat-tile {
@@ -172,8 +172,8 @@ p { margin: 0 0 16px; }
 }
 .cat-tile:active { transform: scale(0.98); }
 .cat-tile small { font-weight: 400; font-size: 0.875rem; }
-/* Ícone da categoria: traço dourado, como o "A" do logótipo, sem moldura. */
-.cat-badge { display: inline-flex; margin-bottom: 16px; color: #f6dc9f; }
+/* Ícone da categoria: traço azul muito claro, como o "A" do logótipo, sem moldura. */
+.cat-badge { display: inline-flex; margin-bottom: 16px; color: #e0edff; }
 .chip { gap: 8px; }
 .chip .cat-icon { flex: none; color: var(--accent); }
 .chip.on .cat-icon { color: currentColor; }
