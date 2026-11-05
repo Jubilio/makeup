@@ -24,7 +24,7 @@ export function Header() {
     <header className="site-header">
       <div className="wrap header-inner">
         <Link href="/" className="brand" aria-label={`${STORE_NAME}, página inicial`}>
-          <img src="/logo.svg" alt="" width={32} height={32} className="brand-logo" />
+          <img src="/logo.svg" alt="" width={40} height={40} className="brand-logo" />
           <span className="brand-name">{STORE_NAME}</span>
         </Link>
         <nav className="nav" aria-label="Menu principal">
