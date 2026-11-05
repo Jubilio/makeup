@@ -20,7 +20,7 @@ confiança; o resto é calmo para que as fotos dos produtos sejam o que se vê p
 | `--surface-2` | #e6f1f9 | #1d2840 | Rodapé e zonas em segundo plano |
 | `--text` | #1a2249 | #eaf2fa | Todo o texto corrido |
 | `--muted` | #52607a | #a7b6c9 | Só notas secundárias (tamanho, quantidade) |
-| `--accent` | #2f6e95 | #8cc8ee | Ação principal, links, página atual |
+| `--accent` | #006da8 | #4cc3f5 | Ação principal, links, página atual |
 | `--wa` / `--wa-ink` | #157a43 / branco | #3fcf7f / #0f1f16 | Só o botão do WhatsApp |
 | `--ok` `--warn` `--err` | | | Estados |
 | Azul muito claro | #e0edff | | Ícones sobre as cores das categorias |
